@@ -32,28 +32,39 @@
     <class>jp.assasans.protanki.server.invite.Invite</class>
 
     <properties>
-      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
+      <!--<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />-->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
       <!-- <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect" /> -->
 
       <property name="hibernate.show_sql" value="false" />
       <property name="hibernate.format_sql" value="false" />
 
-      <property name="hibernate.hbm2ddl.auto" value="create-drop" />
-      <!-- <property name="hibernate.hbm2ddl.auto" value="update" /> -->
+      <!--<property name="hibernate.hbm2ddl.auto" value="create-drop" />-->
+       <property name="hibernate.hbm2ddl.auto" value="update" />
       <!-- <property name="hibernate.hbm2ddl.auto" value="validate" /> -->
 
       <!-- HikariCP -->
       <property name="hibernate.connection.provider_class" value="org.hibernate.hikaricp.internal.HikariCPConnectionProvider" />
 
-      <property name="hibernate.hikari.dataSourceClassName" value="org.h2.jdbcx.JdbcDataSource" />
+      <!--<property name="hibernate.hikari.dataSourceClassName" value="org.h2.jdbcx.JdbcDataSource" />-->
+      <property name="hibernate.hikari.dataSourceClassName" value="com.mysql.cj.jdbc.MysqlDataSource" />
       <!-- <property name="hibernate.hikari.dataSourceClassName" value="org.mariadb.jdbc.MariaDbDataSource" /> -->
 
       <!-- <property name="hibernate.hikari.dataSource.url" value="jdbc:h2:mem:protanki-server" /> -->
-      <property name="hibernate.hikari.dataSource.url" value="jdbc:h2:file:./protanki-server" />
+      <!--<property name="hibernate.hikari.dataSource.url" value="jdbc:h2:file:./protanki-server" />-->
       <!-- <property name="hibernate.hikari.dataSource.url" value="jdbc:mariadb://localhost:3306/protanki-server" /> -->
+      <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://180.76.116.94:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
 
-      <property name="hibernate.hikari.username" value="protanki-server" />
-      <property name="hibernate.hikari.password" value="protanki-server" />
+
+      <property name="hibernate.hikari.username" value="ProtankiAdmin" />
+      <property name="hibernate.hikari.password" value="Lxynb666!" />
+
+      <property name="hibernate.connection.characterEncoding" value="utf8mb4" />
+      <property name="hibernate.connection.useUnicode" value="true" />
+      <property name="hibernate.hikari.dataSource.cachePrepStmts" value="true" />
+      <property name="hibernate.hikari.dataSource.prepStmtCacheSize" value="250" />
+      <property name="hibernate.hikari.dataSource.prepStmtCacheSqlLimit" value="2048" />
+      <property name="hibernate.hikari.dataSource.useServerPrepStmts" value="true" />
 
       <property name="hibernate.hikari.minimumIdle" value="20" />
       <property name="hibernate.hikari.maximumPoolSize" value="100" />
