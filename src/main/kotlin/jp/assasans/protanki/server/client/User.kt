@@ -100,7 +100,7 @@ class UserRepository : IUserRepository {
       id = 0,
       username = username,
       password = hashedPassword,
-      score = 0,
+      score = 60000,
       crystals = 500,
 
       items = mutableListOf(),
