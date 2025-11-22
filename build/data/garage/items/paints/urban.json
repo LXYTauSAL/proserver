@@ -1,0 +1,28 @@
+{
+  "id": "urban",
+  "index": 55,
+
+  "name": {
+    "en": "Urban",
+    "ru": "Урбан"
+  },
+  "description": {
+    "en": "The best paint for battle in urban environments. Works especially well with roadside bushes.",
+    "ru": "Лучшая краска для сражений в городе. Особенно хорошо работает в придорожных кустах, за что любима инспекцией танкового движения."
+  },
+
+  "baseItemId": 739321,
+  "previewResourceId": 739321,
+
+  "rank": 17,
+  "price": 63500,
+
+  "coloring": 868766,
+
+  "properties": [
+    { "property": "ISIS_RESISTANCE", "value": 15 },
+    { "property": "FIREBIRD_RESISTANCE", "value": 5 },
+    { "property": "TWINS_RESISTANCE", "value": 36 },
+    { "property": "RICOCHET_RESISTANCE", "value": 5 }
+  ]
+}

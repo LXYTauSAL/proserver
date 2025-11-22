@@ -1,0 +1,27 @@
+{
+  "id": "mary",
+  "index": 40,
+
+  "name": {
+    "en": "Mary",
+    "ru": "Мэри"
+  },
+  "description": {
+    "en": "Covered with bloody red stains, this paint is meant to inflict horror upon the enemy. However, highly experienced tankers will probably notice that what looks like blood is actually tomato juice. No wonder the paint is called «Mary».",
+    "ru": "Покрытый кроваво-красными пятнами танк должен нагонять жути на противника, вселяя в него первобытный ужас. Хотя умудрённые опытом танкисты знают, что на корпусе вовсе не кровь, а брызги томатного сока. Недаром же краска называется «Мэри»."
+  },
+
+  "baseItemId": 564917,
+  "previewResourceId": 564917,
+
+  "rank": 9,
+  "price": 6500,
+
+  "coloring": 523797,
+
+  "properties": [
+    { "property": "FREEZE_RESISTANCE", "value": 15 },
+    { "property": "TWINS_RESISTANCE", "value": 8 },
+    { "property": "SMOKY_RESISTANCE", "value": 8 }
+  ]
+}

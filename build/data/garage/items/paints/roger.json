@@ -1,0 +1,26 @@
+{
+  "id": "roger",
+  "index": 43,
+
+  "name": {
+    "en": "Roger",
+    "ru": "Роджер"
+  },
+  "description": {
+    "en": "The fearsome skull and bones motif popularized by the blood-thirsty pirates of the seven seas.",
+    "ru": "Главный пиратский символ всех времён, теперь впервые и на твоём танке."
+  },
+
+  "baseItemId": 968399,
+  "previewResourceId": 968399,
+
+  "rank": 10,
+  "price": 12500,
+
+  "coloring": 929509,
+
+  "properties": [
+    { "property": "FIREBIRD_RESISTANCE", "value": 7 },
+    { "property": "TWINS_RESISTANCE", "value": 15 }
+  ]
+}

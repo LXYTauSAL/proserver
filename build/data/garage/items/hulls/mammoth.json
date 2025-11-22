@@ -1,0 +1,150 @@
+{
+  "id": "mammoth",
+  "index": 22,
+
+  "name": {
+    "en": "Mammoth",
+    "ru": "Мамонт"
+  },
+  "description": {
+    "en": "This is not a tank – this is a fortress on tracks. Mammoth is the flagship among other hulls. Extremely heavy, strengthened with super-concrete this hull is slow, which does not prevent Mammoth from successfully fighting against several enemy tanks.",
+    "ru": "Самоходная крепость на гусеничном ходу. Флагман среди танковых корпусов. Цельнолитой, тяжёлый, упрочнённый супербетоном, имеет низкую скорость, что не мешает ему с успехом противостоять одновременно нескольким вражеским орудиям."
+  },
+
+  "baseItemId": 542698,
+
+  "modifications": {
+    "0": {
+      "previewResourceId": 542698,
+      "object3ds": 139472,
+
+      "rank": 6,
+      "price": 600,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 2000 },
+        { "property": "HULL_SPEED", "value": 4.40 },
+        { "property": "HULL_TURN_SPEED", "value": 54 },
+        { "property": "HULL_MASS", "value": 4262 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 8 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 4.4,
+        "turnSpeed": 0.9424778,
+        "acceleration": 8.9,
+        "reverseAcceleration": 8.9,
+        "sideAcceleration": 18.81,
+        "turnAcceleration": 1.4210471,
+        "reverseTurnAcceleration": 2.9503045,
+        "damping": 2000,
+        "mass": 4262,
+        "power": 8.9
+      }
+    },
+    "1": {
+      "previewResourceId": 906451,
+      "object3ds": 219122,
+
+      "rank": 13,
+      "price": 25450,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 2750 },
+        { "property": "HULL_SPEED", "value": 4.60 },
+        { "property": "HULL_TURN_SPEED", "value": 64.1 },
+        { "property": "HULL_MASS", "value": 4743 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 10 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 4.6,
+        "turnSpeed": 1.118756,
+        "acceleration": 10.11,
+        "reverseAcceleration": 10.11,
+        "sideAcceleration": 21.22,
+        "turnAcceleration": 1.5472344,
+        "reverseTurnAcceleration": 3.1604424,
+        "damping": 2000,
+        "mass": 4743,
+        "power": 10.11
+      }
+    },
+    "2": {
+      "previewResourceId": 905090,
+      "object3ds": 550964,
+
+      "rank": 20,
+      "price": 94650,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 3350 },
+        { "property": "HULL_SPEED", "value": 4.90 },
+        { "property": "HULL_TURN_SPEED", "value": 74.2 },
+        { "property": "HULL_MASS", "value": 5225 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 11 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 4.9,
+        "turnSpeed": 1.2950343,
+        "acceleration": 11.31,
+        "reverseAcceleration": 11.31,
+        "sideAcceleration": 23.62,
+        "turnAcceleration": 1.6732472,
+        "reverseTurnAcceleration": 3.3705797,
+        "damping": 2000,
+        "mass": 5225,
+        "power": 11.31
+      }
+    },
+    "3": {
+      "previewResourceId": 385917,
+      "object3ds": 165165,
+
+      "rank": 28,
+      "price": 240000,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 4000 },
+        { "property": "HULL_SPEED", "value": 5.00 },
+        { "property": "HULL_TURN_SPEED", "value": 80 },
+        { "property": "HULL_MASS", "value": 5500 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 12 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 5,
+        "turnSpeed": 1.3962634,
+        "acceleration": 12,
+        "reverseAcceleration": 12,
+        "sideAcceleration": 25,
+        "turnAcceleration": 1.7453293,
+        "reverseTurnAcceleration": 3.4906585,
+        "damping": 2000,
+        "mass": 5500,
+        "power": 12
+      }
+    }
+  }
+}

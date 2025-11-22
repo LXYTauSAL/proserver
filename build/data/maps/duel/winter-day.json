@@ -1,0 +1,132 @@
+{
+  "name": "map_duel",
+  "theme": "winter_day",
+
+  "id": 626421,
+  "preview": 112461,
+
+  "visual": {
+    "angleX": -1,
+    "angleZ": -0.5,
+
+    "lightColor": 8419955,
+    "shadowColor": 6184542,
+
+    "fogAlpha": 0.25,
+    "fogColor": 15333375,
+
+    "farLimit": 10000,
+    "nearLimit": 5000,
+
+    "gravity": 1000,
+    "skyboxRevolutionSpeed": 0,
+    "ssaoColor": 2374217,
+
+    "dustAlpha": 0.8999999761581421,
+    "dustDensity": 0.15000000596046448,
+    "dustFarDistance": 7000,
+    "dustNearDistance": 5000,
+    "dustParticle": "winter",
+    "dustSize": 200
+  },
+  "skybox": "Winter",
+  "resources": {
+    "proplibs": [
+      "Concrete Tiles Winter",
+      "Concrete Walls Winter",
+      "Promotion Winter",
+      "Slopes Rises Winter"
+    ],
+    "map": { "id": 626421, "version": 1 }
+  },
+  "spawnPoints": [
+    {
+      "team": "RED",
+      "position": { "x": -1951.308, "y": -2043.667, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 2681.5, "y": -1889.506, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": -2335.794, "y": -1820.565, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -2118.098, "y": 2001.622, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": 2676.032, "y": 2254.637, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -2187.354, "y": -1530.271, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 2725.865, "y": 2229.089, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": 2811.685, "y": 1690.668, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": 2244.658, "y": 2582.587, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": -2498.459, "y": -1223.911, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    }
+  ],
+  "bonuses": [
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "double_armor", "nitro" ],
+      "modes": [ "CTF", "DM", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -125, "y": 250, "z": 600 },
+        "max": { "x": 625, "y": 1000, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "gold", "crystal" ],
+      "modes": [ "CTF", "DM", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -250, "y": -250, "z": 900 },
+        "max": { "x": 750, "y": 750, "z": 1200 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "double_damage", "health" ],
+      "modes": [ "CTF", "DM", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -125, "y": -500, "z": 600 },
+        "max": { "x": 625, "y": 250, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    }
+  ]
+}

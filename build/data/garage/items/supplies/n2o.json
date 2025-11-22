@@ -1,0 +1,21 @@
+{
+  "id": "n2o",
+  "index": 4,
+
+  "name": {
+    "en": "Nitro",
+    "ru": "Ускорение"
+  },
+  "description": {
+    "en": "Increases speed for one minute.\n\nNitrogen oxide should be in every tank. First, it is wonderful fuel for acceleration. Second, nitrogen oxide also known as laughing gas can be use for narcosis and even just for fun. If you meet silly giggling tankman you should know - he has snuffed N20.",
+    "ru": "Повышает скорость на минуту.\n\nБаллон с закисью азота должен быть в каждом танке. Во-первых, это отличное горючее для временного ускорения боевой машины. Во-вторых, оксид азота, также известный как веселящий газ, можно использовать для наркоза и просто для поднятия настроения. Если вы повстречаете глупо хихикающего танкиста, знайте, он просто нюхнул N2O."
+  },
+
+  "baseItemId": 153186,
+  "previewResourceId": 153186,
+
+  "rank": 4,
+  "price": 50,
+
+  "properties": [ ]
+}

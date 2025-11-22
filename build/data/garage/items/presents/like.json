@@ -1,0 +1,21 @@
+{
+  "id": "like",
+  "index": 193,
+
+  "name": {
+    "en": "Like",
+    "ru": "Лайк"
+  },
+  "description": {
+    "en": "Send a thumbs up to someone who has impressed you in a battle.",
+    "ru": "Отправь лайк тому, кто впечатлил тебя в битве."
+  },
+
+  "baseItemId": 524516,
+  "previewResourceId": 524516,
+
+  "rank": 7,
+  "price": 1000,
+
+  "properties": [ ]
+}

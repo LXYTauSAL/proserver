@@ -1,0 +1,25 @@
+{
+  "id": "dragon",
+  "index": 38,
+
+  "name": {
+    "en": "Dragon",
+    "ru": "Дракон"
+  },
+  "description": {
+    "en": "The inspiration for the prototype of this complex creation, was the dragon scale. Each scale is drawn by hand on a reinforced piece of titanium plate armor.",
+    "ru": "Прототипом при создании этой сложной композитной окраски послужила чешуя драконов, каждая чешуйка рисуется вручную на усиленной титановыми пластинами броне."
+  },
+
+  "baseItemId": 107643,
+  "previewResourceId": 107643,
+
+  "rank": 7,
+  "price": 2500,
+
+  "coloring": 192378,
+
+  "properties": [
+    { "property": "RICOCHET_RESISTANCE", "value": 20 }
+  ]
+}

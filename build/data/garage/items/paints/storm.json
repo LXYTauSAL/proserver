@@ -1,0 +1,26 @@
+{
+  "id": "storm",
+  "index": 41,
+
+  "name": {
+    "en": "Storm",
+    "ru": "Буря"
+  },
+  "description": {
+    "en": "A perfect disguise for covert night time operations, this paint makes the tank virtually invisible at dusk.",
+    "ru": "Отличная маскировка для секретных ночных операций. В условиях слабой освещённости эта текстура делает танк совершенно неразличимым в сумраке."
+  },
+
+  "baseItemId": 364130,
+  "previewResourceId": 364130,
+
+  "rank": 9,
+  "price": 6500,
+
+  "coloring": 265602,
+
+  "properties": [
+    { "property": "FIREBIRD_RESISTANCE", "value": 18 },
+    { "property": "FREEZE_RESISTANCE", "value": 7 }
+  ]
+}

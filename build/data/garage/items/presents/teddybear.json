@@ -1,0 +1,21 @@
+{
+  "id": "teddybear",
+  "index": 197,
+
+  "name": {
+    "en": "Teddy Bear",
+    "ru": "Плюшевый мишка"
+  },
+  "description": {
+    "en": "The best way to confess your feelings to someone you care about.",
+    "ru": "Добавь уюта в гараж тому, кто тебе небезразличен."
+  },
+
+  "baseItemId": 868053,
+  "previewResourceId": 868053,
+
+  "rank": 7,
+  "price": 2000,
+
+  "properties": [ ]
+}

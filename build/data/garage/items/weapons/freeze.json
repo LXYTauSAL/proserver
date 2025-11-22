@@ -1,0 +1,204 @@
+{
+  "id": "freeze",
+  "index": 13,
+
+  "name": {
+    "en": "Freeze",
+    "ru": "Фриз"
+  },
+  "description": {
+    "en": "The idea of Freeze weapon system was born in a desolate Russian village. Using an old broken refrigerator «Sever» and avacuum cleaner «Buran» local inventor made the «freeze thrower». A professional engineer who had been fishing near the village noticed this invention and brought it to the Zhukov Research Institute. There the clumsy «freeze thrower» became the formidable Freeze gun. It showers enemy with the chemical composition based on freon. Victims take damage and all their movements and processes become slower. Though a flow of fire can unfreeze the target.",
+    "ru": "Концепция грозной установки «Фриз» родилась в глухой русской деревне. Из неисправного холодильника «Север» и пылесоса «Буран» местный кулибин собрал «хладомёт». Новинку заметил рыбачивший в тех краях инженер. После доработки в закрытом НИИ им. Жукова «хладомёт» превратился в танковое орудие «Фриз». Заливая противника химическим составом на основе фреона, пушка наносит урон и замораживает объект, замедляя все его движения и процессы. Правда, струя пламени может разморозить жертву."
+  },
+
+  "baseItemId": 262762,
+
+  "modifications": {
+    "0": {
+      "previewResourceId": 262762,
+      "object3ds": 791739,
+
+      "rank": 5,
+      "price": 1450,
+
+      "properties": [
+        {
+          "property": "DAMAGE_PER_SECOND",
+          "properties": [
+            { "property": "DAMAGE_PER_PERIOD", "value": 110 }
+          ]
+        },
+        {
+          "property": "WEAPON_CHARGE_RATE",
+          "properties": [
+            { "property": "WEAPON_RELOAD_TIME", "value": 12.20 }
+          ]
+        },
+        { "property": "TURRET_TURN_SPEED", "value": 125.1 },
+        {
+          "property": "SHOT_RANGE",
+          "properties": [
+            { "property": "WEAPON_MIN_DAMAGE_RADIUS", "value": 24.8 }
+          ]
+        }
+      ],
+
+      "damage": {
+        "stream": { "capacity": 1000, "charge": 82, "discharge": 111, "interval": 500 },
+        "fixed": { "value": 110 },
+        "weakening": { "from": 5, "to": 24.75, "minimum": 0.5 }
+      },
+
+      "visual": {
+        "$type": "freeze",
+
+        "particleSpeed": 3000,
+        "particleTextureResource": 44573,
+        "planeTextureResource": 689821,
+        "shotSoundResource": 842049,
+        "lighting": [
+          {
+            "name": "start",
+            "light": [
+              { "attenuationBegin": 1, "attenuationEnd": 2, "color": 65535, "intensity": 0, "time": 0 },
+              { "attenuationBegin": 50, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 200 }
+            ]
+          },
+          {
+            "name": "loop",
+            "light": [
+              { "attenuationBegin": 50, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 0 },
+              { "attenuationBegin": 150, "attenuationEnd": 1000, "color": 65535, "intensity": 0.3, "time": 200 },
+              { "attenuationBegin": 100, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 400 },
+              { "attenuationBegin": 150, "attenuationEnd": 1000, "color": 65535, "intensity": 0.3, "time": 600 },
+              { "attenuationBegin": 50, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 800 }
+            ]
+          },
+          {
+            "name": "startFire",
+            "light": [
+              { "attenuationBegin": 1, "attenuationEnd": 2, "color": 65535, "intensity": 0, "time": 0 },
+              { "attenuationBegin": 50, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 200 }
+            ]
+          },
+          {
+            "name": "loopFire",
+            "light": [
+              { "attenuationBegin": 50, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 0 },
+              { "attenuationBegin": 150, "attenuationEnd": 1000, "color": 65535, "intensity": 0.3, "time": 200 },
+              { "attenuationBegin": 100, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 400 },
+              { "attenuationBegin": 150, "attenuationEnd": 1000, "color": 65535, "intensity": 0.3, "time": 600 },
+              { "attenuationBegin": 50, "attenuationEnd": 1500, "color": 65535, "intensity": 0.3, "time": 800 }
+            ]
+          }
+        ],
+        "bcsh": [ ]
+      }
+    },
+    "1": {
+      "previewResourceId": 581830,
+      "object3ds": 679592,
+
+      "rank": 12,
+      "price": 28100,
+
+      "properties": [
+        {
+          "property": "DAMAGE_PER_SECOND",
+          "properties": [
+            { "property": "DAMAGE_PER_PERIOD", "value": 150 }
+          ]
+        },
+        {
+          "property": "WEAPON_CHARGE_RATE",
+          "properties": [
+            { "property": "WEAPON_RELOAD_TIME", "value": 11.43 }
+          ]
+        },
+        { "property": "TURRET_TURN_SPEED", "value": 151.2 },
+        {
+          "property": "SHOT_RANGE",
+          "properties": [
+            { "property": "WEAPON_MIN_DAMAGE_RADIUS", "value": 26.7 }
+          ]
+        }
+      ],
+
+      "damage": {
+        "stream": { "capacity": 100000, "charge": 8749, "discharge": 11100, "interval": 500 },
+        "fixed": { "value": 150 },
+        "weakening": { "from": 5, "to": 26.68, "minimum": 0.5 }
+      }
+    },
+    "2": {
+      "previewResourceId": 926940,
+      "object3ds": 115070,
+
+      "rank": 19,
+      "price": 97000,
+
+      "properties": [
+        {
+          "property": "DAMAGE_PER_SECOND",
+          "properties": [
+            { "property": "DAMAGE_PER_PERIOD", "value": 190 }
+          ]
+        },
+        {
+          "property": "WEAPON_CHARGE_RATE",
+          "properties": [
+            { "property": "WEAPON_RELOAD_TIME", "value": 10.60 }
+          ]
+        },
+        { "property": "TURRET_TURN_SPEED", "value": 177.3 },
+        {
+          "property": "SHOT_RANGE",
+          "properties": [
+            { "property": "WEAPON_MIN_DAMAGE_RADIUS", "value": 28.6 }
+          ]
+        }
+      ],
+
+      "damage": {
+        "stream": { "capacity": 100000, "charge": 9434, "discharge": 11100, "interval": 500 },
+        "fixed": { "value": 190 },
+        "weakening": { "from": 5, "to": 28.62, "minimum": 0.5 }
+      }
+    },
+    "3": {
+      "previewResourceId": 918917,
+      "object3ds": 388185,
+
+      "rank": 27,
+      "price": 280000,
+
+      "properties": [
+        {
+          "property": "DAMAGE_PER_SECOND",
+          "properties": [
+            { "property": "DAMAGE_PER_PERIOD", "value": 240 }
+          ]
+        },
+        {
+          "property": "WEAPON_CHARGE_RATE",
+          "properties": [
+            { "property": "WEAPON_RELOAD_TIME", "value": 10.00 }
+          ]
+        },
+        { "property": "TURRET_TURN_SPEED", "value": 196 },
+        {
+          "property": "SHOT_RANGE",
+          "properties": [
+            { "property": "WEAPON_MIN_DAMAGE_RADIUS", "value": 30 }
+          ]
+        }
+      ],
+
+      "damage": {
+        "stream": { "capacity": 1000, "charge": 100, "discharge": 111, "interval": 500 },
+        "fixed": { "value": 240 },
+        "weakening": { "from": 5, "to": 30, "minimum": 0.5 }
+      }
+    }
+  }
+}
