@@ -1,0 +1,213 @@
+2025-11-14 13:11:27.054 WARN  [main @coroutine#111] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:11:27.056 WARN  [main @coroutine#112] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:11:27.078 WARN  [main @coroutine#113] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:11:29.057 WARN  [main @coroutine#118] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:11:29.095 WARN  [main @coroutine#119] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:11:37.348 WARN  [main @coroutine#170] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:11:37.373 WARN  [main @coroutine#171] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:32:54.605 WARN  [main @coroutine#85] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:32:54.608 WARN  [main @coroutine#86] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:32:55.237 WARN  [main @coroutine#89] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:32:56.622 WARN  [main @coroutine#92] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:32:57.245 WARN  [main @coroutine#95] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:33:06.165 WARN  [main @coroutine#147] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:33:06.166 WARN  [main @coroutine#148] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:33:06.194 WARN  [main @coroutine#149] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:35:03.294 WARN  [main @coroutine#84] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:35:03.308 WARN  [main @coroutine#85] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:35:05.059 WARN  [main @coroutine#90] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:35:05.324 WARN  [main @coroutine#91] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:36:34.892 WARN  [main @coroutine#319] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:36:34.916 WARN  [main @coroutine#320] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:36:36.698 WARN  [main @coroutine#325] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:36:36.929 WARN  [main @coroutine#326] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:42:14.008 WARN  [main @coroutine#156] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:42:14.031 WARN  [main @coroutine#157] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:42:14.162 WARN  [main @coroutine#158] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:42:16.041 WARN  [main @coroutine#163] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:42:16.178 WARN  [main @coroutine#164] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:42:58.222 WARN  [main @coroutine#405] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:42:58.247 WARN  [main @coroutine#406] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:42:59.802 WARN  [main @coroutine#410] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:43:00.262 WARN  [main @coroutine#412] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:13.974 WARN  [main @coroutine#458] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:13.990 WARN  [main @coroutine#459] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:14.351 WARN  [main @coroutine#461] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:43:16.005 WARN  [main @coroutine#468] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:16.367 WARN  [main @coroutine#470] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:43:31.053 WARN  [main @coroutine#585] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:31.054 WARN  [main @coroutine#586] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:31.087 WARN  [main @coroutine#587] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:32.736 WARN  [main @coroutine#591] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:43:33.097 WARN  [main @coroutine#593] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:42.639 WARN  [main @coroutine#651] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:42.669 WARN  [main @coroutine#652] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:43.192 WARN  [main @coroutine#654] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:43:44.677 WARN  [main @coroutine#658] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:45.204 WARN  [main @coroutine#660] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:43:58.579 WARN  [main @coroutine#765] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:43:58.609 WARN  [main @coroutine#766] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:44:00.056 WARN  [main @coroutine#770] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:44:00.620 WARN  [main @coroutine#772] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:44:42.367 WARN  [main @coroutine#925] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:44:42.393 WARN  [main @coroutine#926] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:44:42.727 WARN  [main @coroutine#928] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:44:44.411 WARN  [main @coroutine#932] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:44:44.736 WARN  [main @coroutine#934] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:45:14.178 WARN  [main @coroutine#1114] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:45:14.211 WARN  [main @coroutine#1115] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:45:15.727 WARN  [main @coroutine#1119] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:45:16.221 WARN  [main @coroutine#1121] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:46:11.101 WARN  [main @coroutine#1455] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:46:11.131 WARN  [main @coroutine#1457] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:46:12.215 WARN  [main @coroutine#1460] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:46:13.140 WARN  [main @coroutine#1462] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:46:57.661 WARN  [main @coroutine#1773] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:46:57.693 WARN  [main @coroutine#1774] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:46:58.581 WARN  [main @coroutine#1776] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:46:59.702 WARN  [main @coroutine#1780] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:47:00.600 WARN  [main @coroutine#1782] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:47:20.200 WARN  [main @coroutine#1932] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:47:20.201 WARN  [main @coroutine#1933] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:47:20.234 WARN  [main @coroutine#1934] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:47:22.212 WARN  [main @coroutine#1939] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:47:22.242 WARN  [main @coroutine#1940] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:47:45.413 WARN  [main @coroutine#2115] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:47:45.447 WARN  [main @coroutine#2116] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 13:47:46.860 WARN  [main @coroutine#2120] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 13:47:47.458 WARN  [main @coroutine#2122] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:11.391 WARN  [main @coroutine#70] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:11.392 WARN  [main @coroutine#71] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:11.394 WARN  [main @coroutine#72] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:11:11.418 WARN  [main @coroutine#73] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:13.395 WARN  [main @coroutine#78] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:11:13.431 WARN  [main @coroutine#79] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:22.777 WARN  [main @coroutine#122] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:11:22.778 WARN  [main @coroutine#123] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:22.802 WARN  [main @coroutine#124] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:11:24.751 WARN  [main @coroutine#129] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:11:24.817 WARN  [main @coroutine#130] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:18:41.110 WARN  [main @coroutine#208] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:18:41.111 WARN  [main @coroutine#209] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:18:41.115 WARN  [main @coroutine#210] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:18:43.093 WARN  [main @coroutine#215] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:18:43.124 WARN  [main @coroutine#216] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:33:57.858 WARN  [main @coroutine#88] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:33:57.861 WARN  [main @coroutine#89] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:33:57.874 WARN  [main @coroutine#90] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:33:59.558 WARN  [main @coroutine#94] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:33:59.891 WARN  [main @coroutine#96] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:19.398 WARN  [main @coroutine#248] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:19.400 WARN  [main @coroutine#249] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:34:19.421 WARN  [main @coroutine#250] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:21.403 WARN  [main @coroutine#255] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:34:21.433 WARN  [main @coroutine#256] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:33.646 WARN  [main @coroutine#314] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:33.680 WARN  [main @coroutine#315] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:34.174 WARN  [main @coroutine#317] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:34:35.692 WARN  [main @coroutine#321] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:34:36.188 WARN  [main @coroutine#323] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:35:42.788 WARN  [main @coroutine#588] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:35:42.818 WARN  [main @coroutine#589] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:35:44.631 WARN  [main @coroutine#594] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:35:44.828 WARN  [main @coroutine#595] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:36:04.933 WARN  [main @coroutine#713] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:36:04.958 WARN  [main @coroutine#714] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:36:06.145 WARN  [main @coroutine#717] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:36:06.968 WARN  [main @coroutine#720] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:40:00.898 WARN  [main @coroutine#158] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:40:00.901 WARN  [main @coroutine#159] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:40:00.917 WARN  [main @coroutine#160] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:40:02.898 WARN  [main @coroutine#165] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:40:02.928 WARN  [main @coroutine#166] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:40:43.296 WARN  [main @coroutine#386] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:40:43.297 WARN  [main @coroutine#387] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:40:43.321 WARN  [main @coroutine#388] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:40:45.301 WARN  [main @coroutine#393] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:40:45.337 WARN  [main @coroutine#394] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:24.740 WARN  [main @coroutine#634] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:24.741 WARN  [main @coroutine#635] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:41:24.771 WARN  [main @coroutine#636] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:25.629 WARN  [main @coroutine#638] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:26.749 WARN  [main @coroutine#642] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:41:27.639 WARN  [main @coroutine#644] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:46.157 WARN  [main @coroutine#796] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:46.157 WARN  [main @coroutine#797] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:41:46.189 WARN  [main @coroutine#798] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:46.284 WARN  [main @coroutine#799] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:46.352 WARN  [main @coroutine#800] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:41:48.174 WARN  [main @coroutine#805] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:41:48.364 WARN  [main @coroutine#806] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:42:47.772 WARN  [main @coroutine#1003] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:42:47.773 WARN  [main @coroutine#1004] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:42:47.798 WARN  [main @coroutine#1005] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:42:47.901 WARN  [main @coroutine#1006] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:42:47.929 WARN  [main @coroutine#1007] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:42:49.782 WARN  [main @coroutine#1012] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:42:49.941 WARN  [main @coroutine#1013] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:15.257 WARN  [main @coroutine#1168] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:15.258 WARN  [main @coroutine#1169] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:43:15.289 WARN  [main @coroutine#1171] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:17.269 WARN  [main @coroutine#1175] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:43:17.297 WARN  [main @coroutine#1176] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:44.397 WARN  [main @coroutine#1348] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:44.397 WARN  [main @coroutine#1349] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:44.398 WARN  [main @coroutine#1350] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:43:44.427 WARN  [main @coroutine#1351] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:43:46.407 WARN  [main @coroutine#1356] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:43:46.437 WARN  [main @coroutine#1357] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:44:02.648 WARN  [main @coroutine#1477] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:44:02.648 WARN  [main @coroutine#1478] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:44:02.673 WARN  [main @coroutine#1479] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:44:04.653 WARN  [main @coroutine#1484] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:44:04.689 WARN  [main @coroutine#1485] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:36.054 WARN  [main @coroutine#88] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:36.062 WARN  [main @coroutine#89] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:36.456 WARN  [main @coroutine#91] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:36.756 WARN  [main @coroutine#93] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:36.983 WARN  [main @coroutine#94] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:37.182 WARN  [main @coroutine#95] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:37.348 WARN  [main @coroutine#97] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:37.517 WARN  [main @coroutine#98] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:37.679 WARN  [main @coroutine#99] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:37.775 WARN  [main @coroutine#101] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:46:37.846 WARN  [main @coroutine#102] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:38.005 WARN  [main @coroutine#103] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:38.172 WARN  [main @coroutine#104] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:38.337 WARN  [main @coroutine#106] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:38.506 WARN  [main @coroutine#107] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:38.670 WARN  [main @coroutine#108] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:38.831 WARN  [main @coroutine#110] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:39.000 WARN  [main @coroutine#111] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:52.168 WARN  [main @coroutine#207] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:52.169 WARN  [main @coroutine#208] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:46:52.199 WARN  [main @coroutine#209] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:46:54.179 WARN  [main @coroutine#214] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:46:54.209 WARN  [main @coroutine#215] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:23.154 WARN  [main @coroutine#439] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:23.186 WARN  [main @coroutine#440] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:23.910 WARN  [main @coroutine#443] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:25.030 WARN  [main @coroutine#446] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:47:25.921 WARN  [main @coroutine#449] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:53.849 WARN  [main @coroutine#652] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:53.879 WARN  [main @coroutine#654] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:47:55.829 WARN  [main @coroutine#658] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:47:55.889 WARN  [main @coroutine#660] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:58:53.994 WARN  [main @coroutine#462] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:58:53.996 WARN  [main @coroutine#463] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:58:55.319 WARN  [main @coroutine#467] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:58:56.007 WARN  [main @coroutine#469] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:31.360 WARN  [main @coroutine#759] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:31.388 WARN  [main @coroutine#760] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:32.179 WARN  [main @coroutine#763] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:59:33.398 WARN  [main @coroutine#766] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:34.187 WARN  [main @coroutine#769] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:59:53.535 WARN  [main @coroutine#874] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:53.560 WARN  [main @coroutine#875] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:53.825 WARN  [main @coroutine#876] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 14:59:55.575 WARN  [main @coroutine#881] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 14:59:55.838 WARN  [main @coroutine#882] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 15:00:16.002 WARN  [main @coroutine#1023] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 15:00:16.034 WARN  [main @coroutine#1024] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-14 15:00:17.154 WARN  [main @coroutine#1028] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-14 15:00:18.046 WARN  [main @coroutine#1030] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead

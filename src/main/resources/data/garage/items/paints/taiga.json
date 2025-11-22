@@ -1,0 +1,28 @@
+{
+  "id": "taiga",
+  "index": 72,
+
+  "name": {
+    "en": "Taiga",
+    "ru": "Тайга"
+  },
+  "description": {
+    "en": "The «Taiga» camouflage paint masks the tank so well in thick vegetation, that you could probably sneak up on a moose with your tank.",
+    "ru": "Камуфляжное покрытие «Тайга» так хорошо маскирует танк в густой растительности, что на нём даже можно охотиться на лосей. Пугливое животное не замечает угрозу и подходит к боевой машине вплотную. Впрочем, на месте лося может оказаться и другой танкист..."
+  },
+
+  "baseItemId": 184733,
+  "previewResourceId": 184733,
+
+  "rank": 29,
+  "price": 240000,
+
+  "coloring": 32379,
+
+  "properties": [
+    { "property": "ISIS_RESISTANCE", "value": 35 },
+    { "property": "FIREBIRD_RESISTANCE", "value": 24 },
+    { "property": "TWINS_RESISTANCE", "value": 17 },
+    { "property": "RICOCHET_RESISTANCE", "value": 24 }
+  ]
+}

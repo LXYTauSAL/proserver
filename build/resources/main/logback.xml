@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <!-- 日志目录，相对路径：程序运行目录下的 logs/ -->
+  <property name="LOG_DIR" value="logs"/>
+
+  <!-- 控制台输出（保留的话 systemd 里也能看到，嫌啰嗦可以删掉这个 appender-ref） -->
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>[%date{HH:mm:ss.SSS}] [%logger/%level]: %message%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- 普通日志：info.log，包含所有级别（INFO/DEBUG/WARN/ERROR 都会有） -->
+  <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <!-- 当前正在写的文件 -->
+    <file>${LOG_DIR}/info.log</file>
+
+    <!-- 按天滚动：info.2025-11-14.log 这种 -->
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${LOG_DIR}/info.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <!-- 保存 7 天，可以自己改 -->
+      <maxHistory>7</maxHistory>
+    </rollingPolicy>
+
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- 错误日志：error.log，只记录 WARN 及以上（WARN/ERROR） -->
+  <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/error.log</file>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${LOG_DIR}/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <!-- 错误日志可以留久一点，比如 30 天 -->
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+
+    <!-- 只接收 WARN 及以上级别 -->
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>WARN</level>
+    </filter>
+
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="DEBUG">
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="INFO_FILE"/>
+    <appender-ref ref="ERROR_FILE"/>
+  </root>
+
+  <logger name="org.hibernate" level="INFO" />
+  <!-- Non-fixable HHH90000021 deprecation warning -->
+  <logger name="org.hibernate.orm.deprecation" level="ERROR" />
+  <logger name="org.jboss" level="INFO" />
+  <logger name="com.zaxxer.hikari" level="INFO" />
+  <logger name="org.mariadb.jdbc" level="INFO" />
+  <logger name="io.netty" level="INFO" />
+  <logger name="ktor.application" level="INFO" />
+
+  <logger name="jp.assasans.protanki.server.commands.handlers.BattleHandler" level="DEBUG" />
+  <logger name="jp.assasans.protanki.server.resources.ResourceServer" level="DEBUG" />
+</configuration>

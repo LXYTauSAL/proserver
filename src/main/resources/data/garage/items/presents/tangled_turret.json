@@ -1,0 +1,21 @@
+{
+  "id": "tangled_turret",
+  "index": 198,
+
+  "name": {
+    "en": "Tangled Turret",
+    "ru": "Гнутый ствол"
+  },
+  "description": {
+    "en": "Sometimes they just come into your team...",
+    "ru": "Иногда они просто заходят в твою команду..."
+  },
+
+  "baseItemId": 784942,
+  "previewResourceId": 784942,
+
+  "rank": 7,
+  "price": 2000,
+
+  "properties": [ ]
+}

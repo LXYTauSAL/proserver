@@ -1,0 +1,150 @@
+{
+  "id": "hornet",
+  "index": 17,
+
+  "name": {
+    "en": "Hornet",
+    "ru": "Хорнет"
+  },
+  "description": {
+    "en": "This compact hull uses the latest generation of composite materials, which makes it light, quick and grants high survivability even after a direct hit. Hornet is perfect for quick attacks.",
+    "ru": "Корпус для тех, кто хотел бы получить скорость выше средней, при этом не забыв про броню. Немного тугой в поворотах, но очень устойчивый малыш. Хорошо смотрится почти с любой пушкой. Корпус используется при совершении молниеносных нападений, также им комплектуются танки десанта. В народе этот корпус зовётся «Хорьком»."
+  },
+
+  "baseItemId": 209092,
+
+  "modifications": {
+    "0": {
+      "previewResourceId": 209092,
+      "object3ds": 916624,
+
+      "rank": 5,
+      "price": 500,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 1000 },
+        { "property": "HULL_SPEED", "value": 10.00 },
+        { "property": "HULL_TURN_SPEED", "value": 90.8 },
+        { "property": "HULL_MASS", "value": 1616 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 10 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 10.0,
+        "turnSpeed": 1.584759,
+        "acceleration": 10.41,
+        "reverseAcceleration": 17.77,
+        "sideAcceleration": 9.39,
+        "turnAcceleration": 2.864609,
+        "reverseTurnAcceleration": 4.216192,
+        "damping": 1250,
+        "mass": 1616,
+        "power": 10.41
+      }
+    },
+    "1": {
+      "previewResourceId": 930953,
+      "object3ds": 682348,
+
+      "rank": 12,
+      "price": 21000,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 1375 },
+        { "property": "HULL_SPEED", "value": 10.70 },
+        { "property": "HULL_TURN_SPEED", "value": 105.2 },
+        { "property": "HULL_MASS", "value": 1905 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 11 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 10.7,
+        "turnSpeed": 1.8360863,
+        "acceleration": 11.73,
+        "reverseAcceleration": 19.7,
+        "sideAcceleration": 10.35,
+        "turnAcceleration": 2.9024825,
+        "reverseTurnAcceleration": 4.720592,
+        "damping": 1250,
+        "mass": 1905,
+        "power": 11.73
+      }
+    },
+    "2": {
+      "previewResourceId": 725125,
+      "object3ds": 46049,
+
+      "rank": 19,
+      "price": 86600,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 1750 },
+        { "property": "HULL_SPEED", "value": 11.50 },
+        { "property": "HULL_TURN_SPEED", "value": 119.7 },
+        { "property": "HULL_MASS", "value": 2194 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 13 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 11.5,
+        "turnSpeed": 2.089159,
+        "acceleration": 13.05,
+        "reverseAcceleration": 21.62,
+        "sideAcceleration": 11.31,
+        "turnAcceleration": 2.9401817,
+        "reverseTurnAcceleration": 5.2248173,
+        "damping": 1250,
+        "mass": 2194,
+        "power": 13.05
+      }
+    },
+    "3": {
+      "previewResourceId": 72507,
+      "object3ds": 907343,
+
+      "rank": 27,
+      "price": 230000,
+
+      "properties": [
+        { "property": "HULL_ARMOR", "value": 2000 },
+        { "property": "HULL_SPEED", "value": 12.00 },
+        { "property": "HULL_TURN_SPEED", "value": 130 },
+        { "property": "HULL_MASS", "value": 2400 },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            { "property": "HULL_ACCELERATION", "value": 14 }
+          ]
+        }
+      ],
+
+      "physics": {
+        "speed": 12.0,
+        "turnSpeed": 2.268928,
+        "acceleration": 14.0,
+        "reverseAcceleration": 23.0,
+        "sideAcceleration": 12.0,
+        "turnAcceleration": 2.9670596,
+        "reverseTurnAcceleration": 5.5850534,
+        "damping": 1250,
+        "mass": 2400,
+        "power": 14.0
+      }
+    }
+  }
+}

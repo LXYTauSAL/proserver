@@ -1,0 +1,21 @@
+{
+  "id": "helmet",
+  "index": 196,
+
+  "name": {
+    "en": "Helmet",
+    "ru": "Танковый шлем"
+  },
+  "description": {
+    "en": "A tank helmet is an essential piece of equipment for any seasoned player.",
+    "ru": "Танковый шлем — неотъемлемый элемент экипировки опытного бойца."
+  },
+
+  "baseItemId": 122218,
+  "previewResourceId": 122218,
+
+  "rank": 7,
+  "price": 2000,
+
+  "properties": [ ]
+}

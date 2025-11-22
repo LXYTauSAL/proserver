@@ -1,0 +1,1464 @@
+2025-11-15 15:02:04.013 WARN  [main @coroutine#252] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:02:04.029 WARN  [main @coroutine#253] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:02:05.616 WARN  [main @coroutine#257] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:02:06.044 WARN  [main @coroutine#259] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:02:32.351 WARN  [main @coroutine#437] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:02:32.374 WARN  [main @coroutine#438] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:02:33.993 WARN  [main @coroutine#442] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:02:34.391 WARN  [main @coroutine#444] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:03:42.038 WARN  [main @coroutine#578] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:03:42.069 WARN  [main @coroutine#579] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:03:43.618 WARN  [main @coroutine#583] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:03:44.084 WARN  [main @coroutine#585] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:04:00.748 WARN  [main @coroutine#729] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:04:00.782 WARN  [main @coroutine#730] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:04:02.168 WARN  [main @coroutine#734] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:04:02.793 WARN  [main @coroutine#736] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:04:13.687 WARN  [main @coroutine#750] jp.assasans.protanki.server.client.UserSocket - Failed to decode command
+2025-11-15 15:04:13.688 WARN  [main @coroutine#750] jp.assasans.protanki.server.client.UserSocket - - Raw packet: 5ruhhAxklxkyneigvzing
+2025-11-15 15:04:13.689 WARN  [main @coroutine#750] jp.assasans.protanki.server.client.UserSocket - - Decrypted packet: lobby;refresh_captcha
+2025-11-15 15:52:42.771 WARN  [main @coroutine#229] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:52:42.794 WARN  [main @coroutine#230] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:52:44.677 WARN  [main @coroutine#238] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:52:44.801 WARN  [main @coroutine#240] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:02.697 WARN  [main @coroutine#339] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:02.718 WARN  [main @coroutine#340] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:03.012 WARN  [main @coroutine#344] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:03.278 WARN  [main @coroutine#346] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:03.474 WARN  [main @coroutine#348] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:03.676 WARN  [main @coroutine#350] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:03.771 WARN  [main @coroutine#351] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:53:03.837 WARN  [main @coroutine#352] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.000 WARN  [main @coroutine#355] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.169 WARN  [main @coroutine#357] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.335 WARN  [main @coroutine#358] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.497 WARN  [main @coroutine#360] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.664 WARN  [main @coroutine#362] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.824 WARN  [main @coroutine#363] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:04.990 WARN  [main @coroutine#365] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:05.160 WARN  [main @coroutine#367] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:05.322 WARN  [main @coroutine#368] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:05.485 WARN  [main @coroutine#369] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:05.654 WARN  [main @coroutine#372] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:46.541 WARN  [main @coroutine#727] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:46.547 WARN  [main @coroutine#728] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:53:48.293 WARN  [main @coroutine#737] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:53:48.557 WARN  [main @coroutine#741] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:04.657 WARN  [main @coroutine#936] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:04.667 WARN  [main @coroutine#937] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:04.667 WARN  [main @coroutine#938] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:54:06.676 WARN  [main @coroutine#954] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:06.677 WARN  [main @coroutine#955] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:54:16.993 WARN  [main @coroutine#1020] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:16.997 WARN  [main @coroutine#1021] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:18.485 WARN  [main @coroutine#1028] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:54:19.013 WARN  [main @coroutine#1031] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:39.208 WARN  [main @coroutine#1233] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:39.214 WARN  [main @coroutine#1234] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:39.383 WARN  [main @coroutine#1236] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 15:54:41.227 WARN  [main @coroutine#1255] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 15:54:41.395 WARN  [main @coroutine#1258] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:02:48.927 WARN  [main @coroutine#1474] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:02:48.929 WARN  [main @coroutine#1475] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:02:48.931 WARN  [main @coroutine#1476] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:02:49.582 WARN  [main @coroutine#1478] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:02:50.908 WARN  [main @coroutine#1482] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:02:51.600 WARN  [main @coroutine#1484] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:03:19.379 WARN  [main @coroutine#1591] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:03:19.384 WARN  [main @coroutine#1592] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:03:21.068 WARN  [main @coroutine#1596] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:03:21.399 WARN  [main @coroutine#1598] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:03:50.012 WARN  [main @coroutine#1866] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:03:50.012 WARN  [main @coroutine#1867] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:03:50.042 WARN  [main @coroutine#1869] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:03:52.022 WARN  [main @coroutine#1873] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:03:52.058 WARN  [main @coroutine#1875] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:20.502 WARN  [main @coroutine#2126] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:20.534 WARN  [main @coroutine#2127] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:22.347 WARN  [main @coroutine#2131] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:04:22.548 WARN  [main @coroutine#2133] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:34.462 WARN  [main @coroutine#2218] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:34.463 WARN  [main @coroutine#2219] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:04:34.495 WARN  [main @coroutine#2220] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:36.469 WARN  [main @coroutine#2225] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:04:36.506 WARN  [main @coroutine#2226] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:51.655 WARN  [main @coroutine#2344] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:51.657 WARN  [main @coroutine#2345] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:51.657 WARN  [main @coroutine#2346] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:04:51.684 WARN  [main @coroutine#2347] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:04:53.665 WARN  [main @coroutine#2352] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:04:53.701 WARN  [main @coroutine#2353] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:05:12.151 WARN  [main @coroutine#2500] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:05:12.153 WARN  [main @coroutine#2501] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:05:12.154 WARN  [main @coroutine#2502] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:05:12.177 WARN  [main @coroutine#2503] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:05:14.161 WARN  [main @coroutine#2508] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:05:14.190 WARN  [main @coroutine#2509] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:05:50.334 WARN  [main @coroutine#2660] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:05:50.364 WARN  [main @coroutine#2662] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:05:52.243 WARN  [main @coroutine#2666] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:05:52.372 WARN  [main @coroutine#2668] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:04.784 WARN  [main @coroutine#2785] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:04.810 WARN  [main @coroutine#2786] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:06.625 WARN  [main @coroutine#2791] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:06:06.823 WARN  [main @coroutine#2792] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:16.897 WARN  [main @coroutine#2877] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:16.898 WARN  [main @coroutine#2878] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:06:16.928 WARN  [main @coroutine#2879] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:18.904 WARN  [main @coroutine#2884] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:06:18.936 WARN  [main @coroutine#2885] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:28.080 WARN  [main @coroutine#2960] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:28.114 WARN  [main @coroutine#2961] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:29.762 WARN  [main @coroutine#2965] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:06:30.122 WARN  [main @coroutine#2967] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:47.059 WARN  [main @coroutine#3069] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:47.091 WARN  [main @coroutine#3070] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:06:49.001 WARN  [main @coroutine#3074] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:06:49.102 WARN  [main @coroutine#3076] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:07.747 WARN  [main @coroutine#3228] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:07.781 WARN  [main @coroutine#3229] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:09.722 WARN  [main @coroutine#3234] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:07:09.788 WARN  [main @coroutine#3235] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:20.515 WARN  [main @coroutine#3323] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:20.549 WARN  [main @coroutine#3324] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:22.398 WARN  [main @coroutine#3329] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:07:22.562 WARN  [main @coroutine#3330] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:36.357 WARN  [main @coroutine#3416] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:36.388 WARN  [main @coroutine#3417] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:07:37.874 WARN  [main @coroutine#3421] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:07:38.401 WARN  [main @coroutine#3423] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:05.667 WARN  [main @coroutine#3723] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:05.667 WARN  [main @coroutine#3724] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:08:05.692 WARN  [main @coroutine#3725] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:07.668 WARN  [main @coroutine#3731] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:08:07.705 WARN  [main @coroutine#3732] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:22.890 WARN  [main @coroutine#3868] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:22.919 WARN  [main @coroutine#3869] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:24.733 WARN  [main @coroutine#3874] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:08:24.933 WARN  [main @coroutine#3875] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:37.811 WARN  [main @coroutine#4010] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:37.832 WARN  [main @coroutine#4011] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:38.595 WARN  [main @coroutine#4014] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:08:39.849 WARN  [main @coroutine#4017] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:08:40.605 WARN  [main @coroutine#4020] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:09:07.574 WARN  [main @coroutine#4176] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:09:07.600 WARN  [main @coroutine#4177] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:09:09.451 WARN  [main @coroutine#4182] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:09:09.613 WARN  [main @coroutine#4183] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:11:36.986 WARN  [main @coroutine#4951] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:11:36.988 WARN  [main @coroutine#4952] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:11:37.156 WARN  [main @coroutine#4953] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:11:39.006 WARN  [main @coroutine#4958] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:11:39.170 WARN  [main @coroutine#4959] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:14:19.288 WARN  [main @coroutine#6005] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:14:19.318 WARN  [main @coroutine#6006] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:14:21.030 WARN  [main @coroutine#6010] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:14:21.333 WARN  [main @coroutine#6012] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:20:51.574 WARN  [main @coroutine#722] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:20:51.600 WARN  [main @coroutine#724] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:20:53.048 WARN  [main @coroutine#735] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:20:53.616 WARN  [main @coroutine#739] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:21:28.138 WARN  [main @coroutine#935] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:21:28.138 WARN  [main @coroutine#936] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:21:28.159 WARN  [main @coroutine#937] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:21:30.140 WARN  [main @coroutine#947] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:21:30.177 WARN  [main @coroutine#948] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:21:38.721 ERROR [main @coroutine#1018] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireTarget handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireSniping(ShaftWeaponHandler.kt:73)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireTarget(ShotHandler.kt:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:22:58.879 WARN  [main @coroutine#1443] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:22:58.880 WARN  [main @coroutine#1444] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:22:58.912 WARN  [main @coroutine#1445] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:00.892 WARN  [main @coroutine#1456] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:23:00.921 WARN  [main @coroutine#1457] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:33.774 WARN  [main @coroutine#1654] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:33.774 WARN  [main @coroutine#1655] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:23:33.792 WARN  [main @coroutine#1657] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:35.775 WARN  [main @coroutine#1666] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:23:35.805 WARN  [main @coroutine#1668] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:49.390 WARN  [main @coroutine#1757] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:49.393 WARN  [main @coroutine#1758] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:49.793 WARN  [main @coroutine#1765] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:23:51.412 WARN  [main @coroutine#1778] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:23:51.804 WARN  [main @coroutine#1781] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:26:19.596 WARN  [main @coroutine#2529] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:19.619 WARN  [main @coroutine#2531] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:20.309 WARN  [main @coroutine#2534] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:26:21.631 WARN  [main @coroutine#2542] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:22.327 WARN  [main @coroutine#2547] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:26:37.112 WARN  [main @coroutine#2699] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:37.135 WARN  [main @coroutine#2700] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:39.020 WARN  [main @coroutine#2720] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:26:39.144 WARN  [main @coroutine#2723] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:57.898 WARN  [main @coroutine#2916] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:57.923 WARN  [main @coroutine#2917] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:26:59.180 WARN  [main @coroutine#2928] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:26:59.941 WARN  [main @coroutine#2936] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:27:23.676 WARN  [main @coroutine#3184] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:27:23.701 WARN  [main @coroutine#3185] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:27:24.260 WARN  [main @coroutine#3190] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:27:24.752 WARN  [main @coroutine#3196] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:27:26.275 WARN  [main @coroutine#3207] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:28:20.577 WARN  [main @coroutine#3625] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:20.595 WARN  [main @coroutine#3626] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:21.650 WARN  [main @coroutine#3632] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:22.280 WARN  [main @coroutine#3637] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:28:22.706 WARN  [main @coroutine#3641] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:31.854 WARN  [main @coroutine#3716] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:31.880 WARN  [main @coroutine#3717] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:32.471 WARN  [main @coroutine#3724] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:28:33.227 WARN  [main @coroutine#3734] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:28:34.482 WARN  [main @coroutine#3749] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:29:11.719 WARN  [main @coroutine#4097] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:29:11.737 WARN  [main @coroutine#4098] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:29:13.683 WARN  [main @coroutine#4109] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:29:13.751 WARN  [main @coroutine#4110] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:29:31.549 WARN  [main @coroutine#4262] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:29:31.572 WARN  [main @coroutine#4263] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:29:33.387 WARN  [main @coroutine#4282] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:29:33.589 WARN  [main @coroutine#4284] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:43:49.550 ERROR [main @coroutine#196] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:43:53.250 ERROR [main @coroutine#235] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:43:58.105 ERROR [main @coroutine#301] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireTarget handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireSniping(ShaftWeaponHandler.kt:87)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireTarget(ShotHandler.kt:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:44:26.367 ERROR [main @coroutine#457] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:44:37.918 WARN  [main @coroutine#567] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:44:37.920 WARN  [main @coroutine#568] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:44:38.178 WARN  [main @coroutine#572] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:44:39.926 WARN  [main @coroutine#583] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:44:40.193 WARN  [main @coroutine#585] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:45:01.086 ERROR [main @coroutine#722] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:45:08.147 ERROR [main @coroutine#794] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireTarget handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireSniping(ShaftWeaponHandler.kt:87)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireTarget(ShotHandler.kt:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:45:32.276 ERROR [main @coroutine#991] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:45:44.542 ERROR [main @coroutine#1092] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireTarget handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireSniping(ShaftWeaponHandler.kt:87)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireTarget(ShotHandler.kt:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:45:48.470 WARN  [main @coroutine#1125] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:45:48.505 WARN  [main @coroutine#1127] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:45:48.506 WARN  [main @coroutine#1128] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:45:50.516 WARN  [main @coroutine#1143] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:45:50.517 WARN  [main @coroutine#1144] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:46:06.532 ERROR [main @coroutine#1278] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:46:10.402 ERROR [main @coroutine#1320] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:51)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 16:46:27.909 WARN  [main @coroutine#1503] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:46:27.910 WARN  [main @coroutine#1504] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:46:29.421 WARN  [main @coroutine#1516] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 16:46:29.922 WARN  [main @coroutine#1522] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 16:46:42.182 ERROR [main @coroutine#1604] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::ReadyToSpawn handler
+kotlinx.coroutines.JobCancellationException: Job was cancelled
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:1603)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel(CoroutineScope.kt:287)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel$default(CoroutineScope.kt:285)
+	at jp.assasans.protanki.server.client.UserSocket.deactivate(UserSocket.kt:146)
+	at jp.assasans.protanki.server.client.UserSocket$deactivate$1.invokeSuspend(UserSocket.kt)
+	at (Coroutine boundary.()
+	at jp.assasans.protanki.server.commands.handlers.BattleHandler.readyToSpawn(BattleHandler.kt:175)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:30)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at jp.assasans.protanki.server.client.UserSocket.handle(UserSocket.kt:331)
+	at jp.assasans.protanki.server.client.UserSocket$handle$1.invokeSuspend(UserSocket.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+Caused by: kotlinx.coroutines.JobCancellationException: Job was cancelled
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:1603)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel(CoroutineScope.kt:287)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel$default(CoroutineScope.kt:285)
+	at jp.assasans.protanki.server.client.UserSocket.deactivate(UserSocket.kt:146)
+	at jp.assasans.protanki.server.client.UserSocket$deactivate$1.invokeSuspend(UserSocket.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	... 10 common frames omitted
+2025-11-15 17:45:42.937 WARN  [main @coroutine#134] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 17:45:42.942 WARN  [main @coroutine#135] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 17:45:43.798 WARN  [main @coroutine#143] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 17:45:44.957 WARN  [main @coroutine#151] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 17:45:45.811 WARN  [main @coroutine#157] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 17:45:56.270 ERROR [main @coroutine#241] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:65)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 17:46:01.303 ERROR [main @coroutine#290] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireTarget handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireSniping(ShaftWeaponHandler.kt:94)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireTarget(ShotHandler.kt:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 17:46:06.577 WARN  [main @coroutine#23] jp.assasans.protanki.server.client.UserSocket - 127.0.0.1:60150 (asd) thrown an exception
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.ktor.network.sockets.CIOReaderKt$readFrom$2.invoke(CIOReader.kt:128)
+	at io.ktor.network.sockets.CIOReaderKt$readFrom$2.invoke(CIOReader.kt:127)
+	at io.ktor.utils.io.ByteBufferChannel.writeAvailable(ByteBufferChannel.kt:1455)
+	at io.ktor.utils.io.ByteBufferChannel.write$suspendImpl(ByteBufferChannel.kt:1485)
+	at io.ktor.utils.io.ByteBufferChannel.write(ByteBufferChannel.kt)
+	at io.ktor.utils.io.ByteWriteChannel$DefaultImpls.write$default(ByteWriteChannel.kt:88)
+	at io.ktor.network.sockets.CIOReaderKt.readFrom(CIOReader.kt:127)
+	at io.ktor.network.sockets.CIOReaderKt.access$readFrom(CIOReader.kt:1)
+	at io.ktor.network.sockets.CIOReaderKt$attachForReadingDirectImpl$1.invokeSuspend(CIOReader.kt:107)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:235)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:191)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:162)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:406)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:440)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:429)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:337)
+	at io.ktor.network.selector.SelectorManagerSupport.handleSelectedKey(SelectorManagerSupport.kt:80)
+	at io.ktor.network.selector.SelectorManagerSupport.handleSelectedKeys(SelectorManagerSupport.kt:60)
+	at io.ktor.network.selector.ActorSelectorManager.process(ActorSelectorManager.kt:71)
+	at io.ktor.network.selector.ActorSelectorManager.access$process(ActorSelectorManager.kt:18)
+	at io.ktor.network.selector.ActorSelectorManager$process$1.invokeSuspend(ActorSelectorManager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2025-11-15 18:11:57.125 WARN  [main @coroutine#204] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:11:57.127 WARN  [main @coroutine#205] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:11:57.159 WARN  [main @coroutine#206] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:11:59.139 WARN  [main @coroutine#216] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:11:59.169 WARN  [main @coroutine#217] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:12:29.713 ERROR [main @coroutine#411] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:66)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:12:34.097 ERROR [main @coroutine#460] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:66)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:12:38.108 ERROR [main @coroutine#504] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:66)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:12:47.207 ERROR [main @coroutine#603] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireTarget handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireSniping(ShaftWeaponHandler.kt:99)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireTarget(ShotHandler.kt:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:15:08.146 WARN  [main @coroutine#130] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:15:08.158 WARN  [main @coroutine#131] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:15:08.653 WARN  [main @coroutine#134] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:15:10.172 WARN  [main @coroutine#142] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:15:10.661 WARN  [main @coroutine#145] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:27:02.928 ERROR [main @coroutine#162] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:46)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:27:07.322 ERROR [main @coroutine#211] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:46)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:27:20.237 ERROR [main @coroutine#284] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:46)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:29:32.532 WARN  [main @coroutine#979] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:29:32.535 WARN  [main @coroutine#980] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:29:32.834 WARN  [main @coroutine#986] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:29:34.546 WARN  [main @coroutine#993] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:29:34.840 WARN  [main @coroutine#998] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:29:39.632 ERROR [main @coroutine#1016] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::ReadyToSpawn handler
+kotlinx.coroutines.JobCancellationException: Job was cancelled
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:1603)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel(CoroutineScope.kt:287)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel$default(CoroutineScope.kt:285)
+	at jp.assasans.protanki.server.client.UserSocket.deactivate(UserSocket.kt:146)
+	at jp.assasans.protanki.server.client.UserSocket$deactivate$1.invokeSuspend(UserSocket.kt)
+	at (Coroutine boundary.()
+	at jp.assasans.protanki.server.commands.handlers.BattleHandler.readyToSpawn(BattleHandler.kt:175)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:30)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at jp.assasans.protanki.server.client.UserSocket.handle(UserSocket.kt:331)
+	at jp.assasans.protanki.server.client.UserSocket$handle$1.invokeSuspend(UserSocket.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+Caused by: kotlinx.coroutines.JobCancellationException: Job was cancelled
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:1603)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel(CoroutineScope.kt:287)
+	at kotlinx.coroutines.CoroutineScopeKt.cancel$default(CoroutineScope.kt:285)
+	at jp.assasans.protanki.server.client.UserSocket.deactivate(UserSocket.kt:146)
+	at jp.assasans.protanki.server.client.UserSocket$deactivate$1.invokeSuspend(UserSocket.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	... 10 common frames omitted
+2025-11-15 18:42:20.525 WARN  [main @coroutine#259] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:42:20.529 WARN  [main @coroutine#260] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:42:20.892 WARN  [main @coroutine#263] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:42:22.542 WARN  [main @coroutine#282] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:42:22.903 WARN  [main @coroutine#286] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:44:58.420 WARN  [main @coroutine#1239] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:44:58.430 WARN  [main @coroutine#1240] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:44:58.961 WARN  [main @coroutine#1246] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:45:00.447 WARN  [main @coroutine#1260] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:45:00.971 WARN  [main @coroutine#1265] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:46:01.683 WARN  [main @coroutine#1848] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:46:01.693 WARN  [main @coroutine#1849] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:46:03.537 WARN  [main @coroutine#1859] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:46:03.702 WARN  [main @coroutine#1861] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:55:50.186 ERROR [main @coroutine#143] jp.assasans.protanki.server.client.UserSocket - Failed to call Garage::TryMountItem handler
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1013)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:967)
+	at org.hibernate.collection.spi.AbstractPersistentCollection$IteratorProxy.next(AbstractPersistentCollection.java:864)
+	at jp.assasans.protanki.server.commands.handlers.GarageHandler.tryMountItem(GarageHandler.kt:313)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 18:56:02.596 WARN  [main @coroutine#221] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:02.599 WARN  [main @coroutine#222] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:56:02.611 WARN  [main @coroutine#223] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:04.590 WARN  [main @coroutine#233] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:56:04.629 WARN  [main @coroutine#234] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:29.328 WARN  [main @coroutine#488] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:29.339 WARN  [main @coroutine#489] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:29.898 WARN  [main @coroutine#497] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:56:31.349 WARN  [main @coroutine#509] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:31.909 WARN  [main @coroutine#516] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:56:53.027 WARN  [main @coroutine#740] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:53.030 WARN  [main @coroutine#741] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:53.495 WARN  [main @coroutine#746] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:56:55.042 WARN  [main @coroutine#762] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:56:55.507 WARN  [main @coroutine#765] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:57:04.900 WARN  [main @coroutine#857] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:04.912 WARN  [main @coroutine#858] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:05.109 WARN  [main @coroutine#860] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:57:06.261 WARN  [main @coroutine#868] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:07.118 WARN  [main @coroutine#878] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:57:41.372 WARN  [main @coroutine#1278] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:41.377 WARN  [main @coroutine#1279] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:41.543 WARN  [main @coroutine#1280] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:41.740 WARN  [main @coroutine#1282] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:41.904 WARN  [main @coroutine#1284] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:42.066 WARN  [main @coroutine#1285] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:42.235 WARN  [main @coroutine#1289] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:42.404 WARN  [main @coroutine#1291] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:42.562 WARN  [main @coroutine#1293] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:42.730 WARN  [main @coroutine#1295] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:42.892 WARN  [main @coroutine#1297] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:43.061 WARN  [main @coroutine#1298] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:43.155 WARN  [main @coroutine#1301] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:57:43.224 WARN  [main @coroutine#1303] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:43.389 WARN  [main @coroutine#1305] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:43.575 WARN  [main @coroutine#1307] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:43.716 WARN  [main @coroutine#1309] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:43.886 WARN  [main @coroutine#1311] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:44.053 WARN  [main @coroutine#1313] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:57:44.212 WARN  [main @coroutine#1316] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:58:03.563 WARN  [main @coroutine#1480] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:58:03.586 WARN  [main @coroutine#1482] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:58:04.207 WARN  [main @coroutine#1485] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 18:58:05.600 WARN  [main @coroutine#1495] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 18:58:06.222 WARN  [main @coroutine#1502] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:00:26.054 WARN  [main @coroutine#1941] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:00:26.082 WARN  [main @coroutine#1942] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:00:27.999 WARN  [main @coroutine#1962] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:00:28.096 WARN  [main @coroutine#1963] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:00:52.635 WARN  [main @coroutine#2308] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:00:52.659 WARN  [main @coroutine#2309] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:00:53.718 WARN  [main @coroutine#2320] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:00:54.047 WARN  [main @coroutine#2321] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:00:54.771 WARN  [main @coroutine#2329] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:18.346 WARN  [main @coroutine#209] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:18.375 WARN  [main @coroutine#210] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:18.970 WARN  [main @coroutine#217] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:15:20.390 WARN  [main @coroutine#241] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:20.980 WARN  [main @coroutine#249] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:15:48.938 WARN  [main @coroutine#622] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:48.948 WARN  [main @coroutine#623] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:49.120 WARN  [main @coroutine#625] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:15:50.004 WARN  [main @coroutine#634] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:51.064 WARN  [main @coroutine#645] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:15:51.130 WARN  [main @coroutine#648] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:16:13.280 WARN  [main @coroutine#910] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:16:13.303 WARN  [main @coroutine#911] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:16:13.931 WARN  [main @coroutine#917] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:16:14.360 WARN  [main @coroutine#922] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:16:15.415 WARN  [main @coroutine#931] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:16:15.945 WARN  [main @coroutine#936] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:28:34.644 WARN  [main @coroutine#361] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:28:34.667 WARN  [main @coroutine#362] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:28:35.461 WARN  [main @coroutine#370] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:28:36.582 WARN  [main @coroutine#381] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:28:37.471 WARN  [main @coroutine#389] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:28:47.474 ERROR [main @coroutine#510] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:287)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 19:28:51.534 ERROR [main @coroutine#570] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FireArcade handler
+java.lang.IllegalArgumentException: maximumDamageRadius must be less than minimumDamageRadius
+	at jp.assasans.protanki.server.battles.DamageCalculator.getWeakeningMultiplier(DamageCalculator.kt:325)
+	at jp.assasans.protanki.server.battles.DamageCalculator.calculate(DamageCalculator.kt:161)
+	at jp.assasans.protanki.server.battles.IDamageCalculator$DefaultImpls.calculate$default(DamageCalculator.kt:108)
+	at jp.assasans.protanki.server.battles.DamageCalculatorKt.calculate(DamageCalculator.kt:117)
+	at jp.assasans.protanki.server.battles.weapons.ShaftWeaponHandler.fireArcade(ShaftWeaponHandler.kt:287)
+	at jp.assasans.protanki.server.commands.handlers.ShotHandler.fireArcade(ShotHandler.kt:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 19:30:19.055 WARN  [main @coroutine#190] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:30:19.069 WARN  [main @coroutine#191] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:30:20.951 WARN  [main @coroutine#217] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:30:21.017 WARN  [main @coroutine#219] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:31:42.798 WARN  [main @coroutine#532] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:31:42.811 WARN  [main @coroutine#534] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:31:43.985 WARN  [main @coroutine#546] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:31:44.812 WARN  [main @coroutine#555] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:32:01.282 WARN  [main @coroutine#705] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:32:01.313 WARN  [main @coroutine#706] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:32:01.709 WARN  [main @coroutine#712] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:32:03.332 WARN  [main @coroutine#724] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:32:03.724 WARN  [main @coroutine#727] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:32:25.416 WARN  [main @coroutine#874] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:32:25.432 WARN  [main @coroutine#875] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:32:27.413 WARN  [main @coroutine#888] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:32:27.450 WARN  [main @coroutine#889] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:33:05.476 WARN  [main @coroutine#1129] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:33:05.498 WARN  [main @coroutine#1131] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:33:06.591 WARN  [main @coroutine#1145] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:33:07.510 WARN  [main @coroutine#1157] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:33:32.239 WARN  [main @coroutine#1368] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:33:32.262 WARN  [main @coroutine#1369] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:33:33.446 WARN  [main @coroutine#1376] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:33:34.275 WARN  [main @coroutine#1380] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:21.338 WARN  [main @coroutine#3734] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:21.353 WARN  [main @coroutine#3735] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:22.083 WARN  [main @coroutine#3738] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:41:23.367 WARN  [main @coroutine#3747] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:24.093 WARN  [main @coroutine#3750] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:41:40.609 WARN  [main @coroutine#3853] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:40.627 WARN  [main @coroutine#3854] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:41.615 WARN  [main @coroutine#3859] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:41:42.638 WARN  [main @coroutine#3865] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:56.800 WARN  [main @coroutine#3954] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:56.830 WARN  [main @coroutine#3955] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 19:41:58.115 WARN  [main @coroutine#3961] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 19:41:58.840 WARN  [main @coroutine#3966] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:09.479 WARN  [main @coroutine#134] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:09.482 WARN  [main @coroutine#135] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:14:09.504 WARN  [main @coroutine#136] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:10.199 WARN  [main @coroutine#138] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:11.485 WARN  [main @coroutine#142] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:14:12.210 WARN  [main @coroutine#144] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:37.021 WARN  [main @coroutine#306] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:37.022 WARN  [main @coroutine#307] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:14:37.023 WARN  [main @coroutine#308] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:14:39.002 WARN  [main @coroutine#313] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:14:39.038 WARN  [main @coroutine#314] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:15:13.436 WARN  [main @coroutine#484] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:15:13.436 WARN  [main @coroutine#485] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:15:13.457 WARN  [main @coroutine#486] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:15:15.435 WARN  [main @coroutine#491] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:15:15.471 WARN  [main @coroutine#492] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:15:48.696 WARN  [main @coroutine#713] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:15:48.696 WARN  [main @coroutine#714] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:15:48.700 WARN  [main @coroutine#715] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:15:50.683 WARN  [main @coroutine#720] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:15:50.712 WARN  [main @coroutine#721] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:14.553 WARN  [main @coroutine#897] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:14.569 WARN  [main @coroutine#899] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:15.260 WARN  [main @coroutine#901] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:15.267 WARN  [main @coroutine#902] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:15.463 WARN  [main @coroutine#903] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:15.463 WARN  [main @coroutine#904] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:15.863 WARN  [main @coroutine#906] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:15.928 WARN  [main @coroutine#907] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:16:16.423 WARN  [main @coroutine#909] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:18:10.205 WARN  [main @coroutine#1436] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:18:10.208 WARN  [main @coroutine#1437] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:18:10.208 WARN  [main @coroutine#1438] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:18:10.241 WARN  [main @coroutine#1439] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:18:12.215 WARN  [main @coroutine#1444] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:18:12.252 WARN  [main @coroutine#1445] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:19:14.346 WARN  [main @coroutine#1903] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:19:14.346 WARN  [main @coroutine#1904] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:19:14.356 WARN  [main @coroutine#1905] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:19:16.333 WARN  [main @coroutine#1910] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:19:16.371 WARN  [main @coroutine#1911] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:19:45.301 WARN  [main @coroutine#2028] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:19:45.307 WARN  [main @coroutine#2029] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:19:46.924 WARN  [main @coroutine#2033] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:19:47.320 WARN  [main @coroutine#2035] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:23:13.564 WARN  [main @coroutine#134] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:23:13.566 WARN  [main @coroutine#135] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:23:13.590 WARN  [main @coroutine#136] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:23:15.571 WARN  [main @coroutine#141] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:23:15.606 WARN  [main @coroutine#142] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:24:24.119 WARN  [main @coroutine#80] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:24:24.126 WARN  [main @coroutine#81] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:24:24.393 WARN  [main @coroutine#82] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:24:26.139 WARN  [main @coroutine#87] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:24:26.398 WARN  [main @coroutine#88] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:24:50.742 WARN  [main @coroutine#231] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:24:50.743 WARN  [main @coroutine#232] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:24:50.753 WARN  [main @coroutine#233] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:24:52.733 WARN  [main @coroutine#238] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:24:52.768 WARN  [main @coroutine#239] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:25:17.569 WARN  [main @coroutine#407] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:25:17.570 WARN  [main @coroutine#408] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:25:17.582 WARN  [main @coroutine#409] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:25:19.564 WARN  [main @coroutine#414] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:25:19.594 WARN  [main @coroutine#415] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:26:32.788 WARN  [main @coroutine#154] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:26:32.789 WARN  [main @coroutine#155] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:26:32.812 WARN  [main @coroutine#156] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:26:34.787 WARN  [main @coroutine#161] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:26:34.825 WARN  [main @coroutine#162] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:04.815 WARN  [main @coroutine#308] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:04.827 WARN  [main @coroutine#309] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:05.578 WARN  [main @coroutine#314] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:27:06.834 WARN  [main @coroutine#317] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:50.140 WARN  [main @coroutine#633] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:50.150 WARN  [main @coroutine#634] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:50.710 WARN  [main @coroutine#636] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:27:51.570 WARN  [main @coroutine#639] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:27:52.725 WARN  [main @coroutine#642] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:19.606 WARN  [main @coroutine#842] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:19.616 WARN  [main @coroutine#843] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:20.216 WARN  [main @coroutine#845] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:21.368 WARN  [main @coroutine#849] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:28:22.230 WARN  [main @coroutine#851] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:53.022 WARN  [main @coroutine#1099] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:53.022 WARN  [main @coroutine#1100] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:28:53.047 WARN  [main @coroutine#1101] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:28:55.027 WARN  [main @coroutine#1106] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:28:55.063 WARN  [main @coroutine#1107] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:29:09.986 ERROR [main @coroutine#1232] jp.assasans.protanki.server.client.UserSocket - Failed to call Battle::FullMove handler
+java.lang.Exception: No BattlePlayer
+	at jp.assasans.protanki.server.commands.handlers.BattleHandler.moveInternal(BattleHandler.kt:58)
+	at jp.assasans.protanki.server.commands.handlers.BattleHandler.fullMove(BattleHandler.kt:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor109.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.full.KCallables.callSuspendBy(KCallables.kt:74)
+	at jp.assasans.protanki.server.client.UserSocket.processPacket(UserSocket.kt:276)
+	at jp.assasans.protanki.server.client.UserSocket.access$processPacket(UserSocket.kt:72)
+	at jp.assasans.protanki.server.client.UserSocket$handle$3.invokeSuspend(UserSocket.kt:331)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:87)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:40)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at jp.assasans.protanki.server.MainKt$main$1.run(Main.kt:133)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:198)
+	at com.github.ajalt.clikt.parsers.Parser.parse(Parser.kt:18)
+	at com.github.ajalt.clikt.core.CliktCommand.parse(CliktCommand.kt:400)
+	at com.github.ajalt.clikt.core.CliktCommand.parse$default(CliktCommand.kt:397)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:415)
+	at com.github.ajalt.clikt.core.CliktCommand.main(CliktCommand.kt:440)
+	at jp.assasans.protanki.server.MainKt.main(Main.kt:229)
+2025-11-15 20:44:31.151 WARN  [main @coroutine#159] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:44:31.173 WARN  [main @coroutine#160] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:44:31.606 WARN  [main @coroutine#164] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:44:33.185 WARN  [main @coroutine#171] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:44:33.617 WARN  [main @coroutine#175] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:44:48.633 WARN  [main @coroutine#315] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:44:48.637 WARN  [main @coroutine#316] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 20:44:49.662 WARN  [main @coroutine#325] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 20:44:50.649 WARN  [main @coroutine#330] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 22:51:24.806 WARN  [main @coroutine#228] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 22:51:24.808 WARN  [main @coroutine#229] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 22:51:26.554 WARN  [main @coroutine#234] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 22:51:26.823 WARN  [main @coroutine#235] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 22:59:31.665 WARN  [main @coroutine#1510] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 22:59:31.683 WARN  [main @coroutine#1511] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 22:59:33.367 WARN  [main @coroutine#1515] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 23:10:06.555 WARN  [main @coroutine#755] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 23:10:06.577 WARN  [main @coroutine#756] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for movement: Dead
+2025-11-15 23:10:06.608 WARN  [main @coroutine#757] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead
+2025-11-15 23:10:08.620 WARN  [main @coroutine#762] jp.assasans.protanki.server.commands.handlers.BattleHandler - Invalid tank state for rotate turret: Dead

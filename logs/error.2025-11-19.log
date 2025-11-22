@@ -1,0 +1,41 @@
+2025-11-19 01:34:23.624 WARN  [main @coroutine#426] jp.assasans.protanki.server.client.UserSocket - Failed to decode command
+2025-11-19 01:34:23.630 WARN  [main @coroutine#426] jp.assasans.protanki.server.client.UserSocket - - Raw packet: 5hgzzrkAgizo|gzkezgtq
+2025-11-19 01:34:23.630 WARN  [main @coroutine#426] jp.assasans.protanki.server.client.UserSocket - - Decrypted packet: battle;activate_tank
+2025-11-19 01:37:55.902 WARN  [main @coroutine#1805] jp.assasans.protanki.server.client.UserSocket - Failed to decode command
+2025-11-19 01:37:55.902 WARN  [main @coroutine#1805] jp.assasans.protanki.server.client.UserSocket - - Raw packet: 4gfyyqj@fhyn{fyjdyfsp
+2025-11-19 01:37:55.902 WARN  [main @coroutine#1805] jp.assasans.protanki.server.client.UserSocket - - Decrypted packet: battle;activate_tank
+2025-11-19 01:40:30.055 WARN  [main @coroutine#27] jp.assasans.protanki.server.client.UserSocket - 127.0.0.1:65002 (rrr) thrown an exception
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.ktor.network.sockets.CIOReaderKt$readFrom$2.invoke(CIOReader.kt:128)
+	at io.ktor.network.sockets.CIOReaderKt$readFrom$2.invoke(CIOReader.kt:127)
+	at io.ktor.utils.io.ByteBufferChannel.writeAvailable(ByteBufferChannel.kt:1455)
+	at io.ktor.utils.io.ByteBufferChannel.write$suspendImpl(ByteBufferChannel.kt:1485)
+	at io.ktor.utils.io.ByteBufferChannel.write(ByteBufferChannel.kt)
+	at io.ktor.utils.io.ByteWriteChannel$DefaultImpls.write$default(ByteWriteChannel.kt:88)
+	at io.ktor.network.sockets.CIOReaderKt.readFrom(CIOReader.kt:127)
+	at io.ktor.network.sockets.CIOReaderKt.access$readFrom(CIOReader.kt:1)
+	at io.ktor.network.sockets.CIOReaderKt$attachForReadingDirectImpl$1.invokeSuspend(CIOReader.kt:107)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:235)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:191)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:162)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:406)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:440)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:429)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:337)
+	at io.ktor.network.selector.SelectorManagerSupport.handleSelectedKey(SelectorManagerSupport.kt:80)
+	at io.ktor.network.selector.SelectorManagerSupport.handleSelectedKeys(SelectorManagerSupport.kt:60)
+	at io.ktor.network.selector.ActorSelectorManager.process(ActorSelectorManager.kt:71)
+	at io.ktor.network.selector.ActorSelectorManager.access$process(ActorSelectorManager.kt:18)
+	at io.ktor.network.selector.ActorSelectorManager$process$1.invokeSuspend(ActorSelectorManager.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2025-11-19 01:43:26.627 WARN  [main @coroutine#397] jp.assasans.protanki.server.client.UserSocket - Failed to decode command
+2025-11-19 01:43:26.628 WARN  [main @coroutine#397] jp.assasans.protanki.server.client.UserSocket - - Raw packet: 2edwwoh>dfwlydwhbwdqn
+2025-11-19 01:43:26.628 WARN  [main @coroutine#397] jp.assasans.protanki.server.client.UserSocket - - Decrypted packet: battle;activate_tank

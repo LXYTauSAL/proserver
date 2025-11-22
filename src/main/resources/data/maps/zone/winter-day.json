@@ -1,0 +1,416 @@
+{
+  "name": "map_zone",
+  "theme": "winter_day",
+
+  "id": 916976,
+  "preview": 37897,
+
+  "visual": {
+    "angleX": -1,
+    "angleZ": -0.5,
+
+    "lightColor": 8419955,
+    "shadowColor": 6184542,
+
+    "fogAlpha": 0.25,
+    "fogColor": 15333375,
+
+    "farLimit": 10000,
+    "nearLimit": 5000,
+
+    "gravity": 1000,
+    "skyboxRevolutionSpeed": 0,
+    "ssaoColor": 2374217,
+
+    "dustAlpha": 0.8999999761581421,
+    "dustDensity": 0.15000000596046448,
+    "dustFarDistance": 7000,
+    "dustNearDistance": 5000,
+    "dustParticle": "winter",
+    "dustSize": 200
+  },
+  "skybox": "Winter",
+  "resources": {
+    "proplibs": [
+      "Industrial Bridge Winter",
+      "Industrial Elements Winter",
+      "Land Rocks Winter",
+      "Land Tiles Winter",
+      "Promotion Winter",
+      "Stuffs Winter",
+      "Trees Winter",
+      "Waffle Fence Winter"
+    ],
+    "map": { "id": 916976, "version": 1 }
+  },
+  "spawnPoints": [
+    {
+      "mode": "DM",
+      "position": { "x": -4577.803, "y": 3507.824, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": -461.997, "y": -2240.084, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": 1750, "y": -2250, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": -389.471, "y": -2535.498, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": -1528.679, "y": 3174.635, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -750, "y": -2250, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": -4628.116, "y": 2876.229, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": -1053.011, "y": 2765.499, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -4028.893, "y": -1191.787, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 1020.904, "y": 2743.947, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -4022.623, "y": 1732.979, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -1250, "y": 2750, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 4529.146, "y": -1191.674, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": -4550.16, "y": -3196.101, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": 2181.011, "y": -2741.173, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 4952.46, "y": -3147.884, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 1297.003, "y": -2236.345, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": 1444.168, "y": 3232.023, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 4545.59, "y": 1740.602, "z": 300 },
+      "rotation": { "x": 0, "y": 0, "z": 300 }
+    },
+    {
+      "mode": "DM",
+      "position": { "x": 4988.116, "y": 3500.766, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "RED",
+      "position": { "x": 5146.053, "y": -2625.368, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "team": "BLUE",
+      "position": { "x": 1250, "y": 2750, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    }
+  ],
+  "flags": {
+    "RED": {
+      "position": { "x": 4500, "y": -2750, "z": 0 }
+    },
+    "BLUE": {
+      "position": { "x": -4000, "y": 3250, "z": 0 }
+    }
+  },
+  "points": [
+    {
+      "id": "B",
+      "distance": 1000,
+      "free": false,
+      "position": { "x": 250, "y": 250, "z": 0 }
+    },
+    {
+      "id": "C",
+      "distance": 500,
+      "free": false,
+      "position": { "x": -4000, "y": 250, "z": 300 }
+    },
+    {
+      "id": "A",
+      "distance": 500,
+      "free": false,
+      "position": { "x": 4500, "y": 250, "z": 300 }
+    }
+  ],
+  "bonuses": [
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "double_armor" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 2000, "y": 1250, "z": 600 },
+        "max": { "x": 2500, "y": 1750, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "gold" ],
+      "modes": [ "CP" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 0, "y": -1000, "z": 1200 },
+        "max": { "x": 1000, "y": -250, "z": 1500 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "double_damage" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 2000, "y": -1250, "z": 600 },
+        "max": { "x": 2500, "y": -750, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "health" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 2500, "y": 3000, "z": 600 },
+        "max": { "x": 3000, "y": 3500, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "nitro" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 500, "y": 3000, "z": 600 },
+        "max": { "x": 1000, "y": 3500, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "double_armor" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -2000, "y": -1250, "z": 600 },
+        "max": { "x": -1500, "y": -750, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "health" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -2527.975, "y": -2977.268, "z": 600 },
+        "max": { "x": -2027.975, "y": -2477.268, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "gold" ],
+      "modes": [ "TDM", "CTF", "DM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 97.608, "y": -196.103, "z": 1200 },
+        "max": { "x": 847.608, "y": 803.897, "z": 1500 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "nitro" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -500, "y": -3000, "z": 600 },
+        "max": { "x": 0, "y": -2500, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "crystal" ],
+      "modes": [ "TDM", "CTF", "DM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -4290.284, "y": -711.893, "z": 900 },
+        "max": { "x": -3790.284, "y": -211.893, "z": 1200 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "crystal" ],
+      "modes": [ "TDM", "CTF", "DM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 4272.032, "y": 764.298, "z": 900 },
+        "max": { "x": 4772.032, "y": 1264.298, "z": 1200 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "gold" ],
+      "modes": [ "CP" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 0, "y": 750, "z": 1200 },
+        "max": { "x": 1000, "y": 1500, "z": 1500 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "crystal" ],
+      "modes": [ "TDM", "CTF", "DM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -56.229, "y": 877.616, "z": 600 },
+        "max": { "x": 443.771, "y": 1377.616, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "gold" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 2989.362, "y": -764.046, "z": 1200 },
+        "max": { "x": 3489.362, "y": 235.954, "z": 1500 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "crystal" ],
+      "modes": [ "CP" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -1250, "y": 1250, "z": 600 },
+        "max": { "x": -750, "y": 1750, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "crystal" ],
+      "modes": [ "CP" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 1250, "y": -1250, "z": 600 },
+        "max": { "x": 1750, "y": -750, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "double_damage" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -2000, "y": 1250, "z": 600 },
+        "max": { "x": -1500, "y": 1750, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "crystal" ],
+      "modes": [ "TDM", "CTF", "DM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": 428.195, "y": -817.234, "z": 600 },
+        "max": { "x": 928.195, "y": -317.234, "z": 900 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "free-bonus",
+      "free": true,
+      "types": [ "gold" ],
+      "modes": [ "DM", "CTF", "CP", "TDM" ],
+      "parachute": true,
+      "position": {
+        "min": { "x": -2997.787, "y": 254.15, "z": 1200 },
+        "max": { "x": -2497.787, "y": 1254.15, "z": 1500 }
+      },
+      "rotation": { "x": 0, "y": 0, "z": 0 }
+    }
+  ]
+}
