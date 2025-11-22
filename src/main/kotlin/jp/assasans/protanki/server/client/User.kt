@@ -17,6 +17,8 @@ import jp.assasans.protanki.server.HibernateUtils
 import jp.assasans.protanki.server.extensions.putIfAbsent
 import jp.assasans.protanki.server.garage.*
 import jp.assasans.protanki.server.quests.*
+import org.mindrot.jbcrypt.BCrypt
+
 
 @Embeddable
 data class UserEquipment(
@@ -90,11 +92,14 @@ class UserRepository : IUserRepository {
 
     entityManager.transaction.begin()
 
+    val hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt())
+
+
     // TODO(Assasans): Testing only
     val user = User(
       id = 0,
       username = username,
-      password = password,
+      password = hashedPassword,
       score = 0,
       crystals = 500,
 

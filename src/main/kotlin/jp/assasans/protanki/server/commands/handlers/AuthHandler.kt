@@ -9,6 +9,7 @@ import jp.assasans.protanki.server.commands.CommandHandler
 import jp.assasans.protanki.server.commands.CommandName
 import jp.assasans.protanki.server.commands.ICommandHandler
 import jp.assasans.protanki.server.invite.IInviteService
+import org.mindrot.jbcrypt.BCrypt
 
 object AuthHandlerConstants {
   const val InviteRequired = "Invite code is required to log in"
@@ -158,16 +159,24 @@ class AuthHandler : ICommandHandler, KoinComponent {
     // 查询用户，不存在则创建（支持"登录即注册"）
     var user = userRepository.getUser(username)
     if(user == null) {
-      val created = userRepository.createUser(username, password)
-      user = created ?: userRepository.getUser(username) // 处理并发创建的情况
-      if(user == null) {
-        Command(CommandName.AuthDenied).send(socket)
-        return
-      }
+      // 用户名不存在，直接返回错误
+      logger.debug { "User login rejected: username '$username' does not exist" }
+      // 使用多语言提示（需在语言文件中添加对应文案）
+      Command(CommandName.ShowAlert, "Username does not exist").send(socket)
+      Command(CommandName.AuthDenied).send(socket)
+      return
     }
+//    if(user == null) {
+//      val created = userRepository.createUser(username, password)
+//      user = created ?: userRepository.getUser(username) // 处理并发创建的情况
+//      if(user == null) {
+//        Command(CommandName.AuthDenied).send(socket)
+//        return
+//      }
+//    }
 
     // 密码校验
-    if(user.password != password) {
+    if(!BCrypt.checkpw(password, user.password)) {
       logger.debug { "User login rejected: incorrect password for '$username'" }
       Command(CommandName.AuthDenied).send(socket)
       return

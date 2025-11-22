@@ -64,6 +64,9 @@ dependencies {
   implementation("com.github.ajalt.clikt:clikt:3.5.0")
 
   testImplementation(kotlin("test"))
+
+  implementation("org.mindrot:jbcrypt:0.4")
+
 }
 
 tasks.withType<KotlinCompile> {
