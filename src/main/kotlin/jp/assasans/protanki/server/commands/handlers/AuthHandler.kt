@@ -68,7 +68,7 @@ class AuthHandler : ICommandHandler, KoinComponent {
     //   Command(CommandName.AuthDenied).send(socket)
     // }
   }*/
-  @CommandHandler(CommandName.Login)
+/*  @CommandHandler(CommandName.Login)
   suspend fun login(socket: UserSocket, captcha: String, rememberMe: Boolean, username: String, password: String) {
     val invite = socket.invite
     if(inviteService.enabled) {
@@ -134,8 +134,51 @@ class AuthHandler : ICommandHandler, KoinComponent {
     socket.user = user
     Command(CommandName.AuthAccept).send(socket)
     socket.loadLobby()
-  }
+  }*/
+  @CommandHandler(CommandName.Login)
+  suspend fun login(socket: UserSocket, captcha: String, rememberMe: Boolean, username: String, password: String) {
+    val invite = socket.invite
+    // 邀请码验证（如果启用了邀请系统）
+    if(inviteService.enabled) {
+      if(invite == null) {
+        Command(CommandName.ShowAlert, AuthHandlerConstants.InviteRequired).send(socket)
+        Command(CommandName.AuthDenied).send(socket)
+        return
+      }
+      // 验证邀请码绑定的用户名
+      invite.username?.let { inviteUsername ->
+        if(username != inviteUsername && !username.startsWith("${inviteUsername}_")) {
+          Command(CommandName.ShowAlert, AuthHandlerConstants.getInviteInvalidUsername(inviteUsername)).send(socket)
+          Command(CommandName.AuthDenied).send(socket)
+          return
+        }
+      }
+    }
 
+    // 查询用户，不存在则创建（支持"登录即注册"）
+    var user = userRepository.getUser(username)
+    if(user == null) {
+      val created = userRepository.createUser(username, password)
+      user = created ?: userRepository.getUser(username) // 处理并发创建的情况
+      if(user == null) {
+        Command(CommandName.AuthDenied).send(socket)
+        return
+      }
+    }
+
+    // 密码校验
+    if(user.password != password) {
+      logger.debug { "User login rejected: incorrect password for '$username'" }
+      Command(CommandName.AuthDenied).send(socket)
+      return
+    }
+
+    // 登录成功处理
+    userSubscriptionManager.add(user)
+    socket.user = user
+    Command(CommandName.AuthAccept).send(socket)
+    socket.loadLobby()
+  }
 
   @CommandHandler(CommandName.LoginByHash)
   suspend fun loginByHash(socket: UserSocket, hash: String) {
@@ -180,7 +223,7 @@ class AuthHandler : ICommandHandler, KoinComponent {
 @CommandHandler(CommandName.CheckUsernameRegistration)
 suspend fun checkUsernameRegistration(socket: UserSocket, username: String) {
   if(userRepository.getUser(username) != null) {
-    Command(CommandName.CheckUsernameRegistrationClient, "nickname_exist").send(socket)
+    Command(CommandName.CheckUsernameRegistrationClient, "incorrect").send(socket)
     return
   }
 
@@ -188,7 +231,7 @@ suspend fun checkUsernameRegistration(socket: UserSocket, username: String) {
 }
 
 
-  @CommandHandler(CommandName.RegisterUser)
+  /*@CommandHandler(CommandName.RegisterUser)
   suspend fun registerUser(socket: UserSocket, username: String, password: String, captcha: String) {
     val invite = socket.invite
     if(inviteService.enabled) {
@@ -208,7 +251,7 @@ suspend fun checkUsernameRegistration(socket: UserSocket, username: String) {
 
 
 
-    /*logger.debug { "Register user: [ Invite = '${socket.invite?.code}', Username = '$username', Password = '$password', Captcha = ${if(captcha.isEmpty()) "*none*" else "'${captcha}'"} ]" }
+    logger.debug { "Register user: [ Invite = '${socket.invite?.code}', Username = '$username', Password = '$password', Captcha = ${if(captcha.isEmpty()) "*none*" else "'${captcha}'"} ]" }
 
     val user = userRepository.createUser(username, password)
                ?: TODO("User exists")
@@ -221,7 +264,9 @@ suspend fun checkUsernameRegistration(socket: UserSocket, username: String) {
     userSubscriptionManager.add(user)
     socket.user = user
     Command(CommandName.AuthAccept).send(socket)
-    socket.loadLobby()*/
+    socket.loadLobby()
+
+
     logger.debug {
       "Register user: [ Invite = '${socket.invite}', Username = '$username', " +
               "Captcha = ${if(captcha.isEmpty()) "*none*" else "'$captcha'"} ]"
@@ -247,5 +292,42 @@ suspend fun checkUsernameRegistration(socket: UserSocket, username: String) {
     socket.loadLobby()
 
 
+  }*/
+  @CommandHandler(CommandName.RegisterUser)
+  suspend fun registerUser(socket: UserSocket, username: String, password: String, captcha: String) {
+    val invite = socket.invite
+    // 邀请码验证（如果启用了邀请系统）
+    if(inviteService.enabled) {
+      if(invite == null) {
+        Command(CommandName.ShowAlert, AuthHandlerConstants.InviteRequired).send(socket)
+        return
+      }
+      // 验证邀请码绑定的用户名
+      invite.username?.let { inviteUsername ->
+        if(username != inviteUsername && !username.startsWith("${inviteUsername}_")) {
+          Command(CommandName.ShowAlert, AuthHandlerConstants.getInviteInvalidUsername(inviteUsername)).send(socket)
+          return
+        }
+      }
+    }
+
+    // 创建用户，若用户名已存在则返回错误
+    val user = userRepository.createUser(username, password)
+    if(user == null) {
+      logger.debug { "User registration rejected: username '$username' already exists" }
+      Command(CommandName.ShowAlert, "This nickname is already in use").send(socket)
+      Command(CommandName.AuthDenied).send(socket)
+      return
+    }
+
+    // 注册成功处理
+    if(inviteService.enabled && invite != null) {
+      invite.username = user.username
+      invite.updateUsername()
+    }
+    userSubscriptionManager.add(user)
+    socket.user = user
+    Command(CommandName.AuthAccept).send(socket)
+    socket.loadLobby()
   }
 }

@@ -95,8 +95,8 @@ class UserRepository : IUserRepository {
       id = 0,
       username = username,
       password = password,
-      score = 1_000_000,
-      crystals = 10_000_000,
+      score = 0,
+      crystals = 500,
 
       items = mutableListOf(),
       dailyQuests = mutableListOf()
@@ -104,24 +104,14 @@ class UserRepository : IUserRepository {
 
     user.items += listOf(
       ServerGarageUserItemWeapon(user, "smoky", modificationIndex = 0),
-      ServerGarageUserItemWeapon(user, "railgun", modificationIndex = 0),
-      ServerGarageUserItemWeapon(user, "thunder", modificationIndex = 0),
-      ServerGarageUserItemHull(user, "hunter", modificationIndex = 0),
-      ServerGarageUserItemHull(user, "hornet", modificationIndex = 0),
       ServerGarageUserItemHull(user, "wasp", modificationIndex = 0),
       ServerGarageUserItemPaint(user, "green"),
-      ServerGarageUserItemPaint(user, "zeus"),
-      ServerGarageUserItemPaint(user, "moonwalker"),
-      ServerGarageUserItemSupply(user, "health", count = 100),
-      ServerGarageUserItemSupply(user, "armor", count = 100),
-      ServerGarageUserItemSupply(user, "double_damage", count = 100),
-      ServerGarageUserItemSupply(user, "n2o", count = 100),
       ServerGarageUserItemSubscription(user, "premium_effect", endTime = Clock.System.now() + 10.days)
     )
     user.equipment = UserEquipment(
       hullId = "wasp",
-      weaponId = "railgun",
-      paintId = "moonwalker"
+      weaponId = "smoky",
+      paintId = "green"
     )
     user.equipment.user = user
 
