@@ -38,6 +38,8 @@ import jp.assasans.protanki.server.garage.*
 import jp.assasans.protanki.server.invite.IInviteService
 import jp.assasans.protanki.server.invite.Invite
 import jp.assasans.protanki.server.lobby.chat.ILobbyChatManager
+import java.net.SocketException
+
 
 suspend fun Command.send(socket: UserSocket) = socket.send(this)
 suspend fun Command.send(player: BattlePlayer) = player.socket.send(this)
@@ -311,9 +313,19 @@ class UserSocket(
           buffer = input.readAvailable()
           packetProcessor.write(buffer)
         } catch(exception: IOException) {
-          logger.warn(exception) { "$this thrown an exception" }
-          deactivate()
+          // 如果是客户端直接断开连接（Connection reset / Broken pipe），当成正常下线处理，
+          // 不打印堆栈，只打一条简短日志即可
+          if(exception is SocketException &&
+            (exception.message?.contains("Connection reset", ignoreCase = true) == true ||
+                    exception.message?.contains("Broken pipe", ignoreCase = true) == true)
+          ) {
+            logger.info { "$this disconnected: ${exception.message}" }
+          } else {
+            // 其它 IO 异常仍然按原来的方式输出堆栈，方便排查
+            logger.warn(exception) { "$this thrown an exception" }
+          }
 
+          deactivate()
           break
         }
 

@@ -53,7 +53,7 @@
       <!-- <property name="hibernate.hikari.dataSource.url" value="jdbc:h2:mem:protanki-server" /> -->
       <!--<property name="hibernate.hikari.dataSource.url" value="jdbc:h2:file:./protanki-server" />-->
       <!-- <property name="hibernate.hikari.dataSource.url" value="jdbc:mariadb://localhost:3306/protanki-server" /> -->
-      <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://127.0.0.1:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
+      <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://180.76.116.94:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
 
 
       <property name="hibernate.hikari.username" value="ProtankiAdmin" />
@@ -68,7 +68,17 @@
 
       <property name="hibernate.hikari.minimumIdle" value="20" />
       <property name="hibernate.hikari.maximumPoolSize" value="100" />
-      <property name="hibernate.hikari.idleTimeout" value="30000" />
+      <property name="hibernate.hikari.idleTimeout" value="60000" />
+
+      <property name="hibernate.hikari.leakDetectionThreshold" value="30000" />
+      <!-- 新增：连接超时时间（显式配置，避免默认值变动） -->
+      <property name="hibernate.hikari.connectionTimeout" value="30000" />
+
+      <!-- 新增：连接有效性检测（每次拿连接前验证，避免无效连接占用） -->
+      <property name="hibernate.hikari.connectionTestQuery" value="SELECT 1" />
+
+      <!-- 新增：连接最大存活时间（1小时，强制回收长期占用的连接） -->
+      <property name="hibernate.hikari.maxLifetime" value="3600000" />
     </properties>
   </persistence-unit>
 </persistence>

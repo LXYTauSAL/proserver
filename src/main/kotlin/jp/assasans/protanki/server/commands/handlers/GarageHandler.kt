@@ -13,6 +13,8 @@ import jp.assasans.protanki.server.commands.CommandHandler
 import jp.assasans.protanki.server.commands.CommandName
 import jp.assasans.protanki.server.commands.ICommandHandler
 import jp.assasans.protanki.server.garage.*
+import jakarta.persistence.EntityManager
+
 
 /*
 Switch to garage from battle:
@@ -42,7 +44,7 @@ class GarageHandler : ICommandHandler, KoinComponent {
     Command(CommandName.MountItem, item, false.toString()).send(socket)
   }
 
-  @CommandHandler(CommandName.TryMountItem)
+ /* @CommandHandler(CommandName.TryMountItem)
   suspend fun tryMountItem(socket: UserSocket, rawItem: String) {
     val user = socket.user ?: throw Exception("No User")
 
@@ -92,10 +94,70 @@ class GarageHandler : ICommandHandler, KoinComponent {
     }
 
     Command(CommandName.MountItem, currentItem.mountName, true.toString()).send(socket)
-  }
+  }*/
+ @CommandHandler(CommandName.TryMountItem)
+ suspend fun tryMountItem(socket: UserSocket, rawItem: String) {
+   val user = socket.user ?: throw Exception("No User")
+
+   val itemId = rawItem.substringBeforeLast("_")
+   val marketItem = marketRegistry.get(itemId)
+   val currentItem = user.items.singleOrNull { userItem -> userItem.marketItem.id == itemId }
+
+   logger.debug { "Trying to mount ${marketItem.id}..." }
+
+   if(currentItem == null) {
+     logger.debug { "Player ${user.username} (${user.id}) tried to mount not owned item: ${marketItem.id}" }
+     return
+   }
+
+   val equipmentChanged = when(currentItem) {
+     is ServerGarageUserItemWeapon -> {
+       user.equipment.weapon = currentItem
+       true
+     }
+     is ServerGarageUserItemHull   -> {
+       user.equipment.hull = currentItem
+       true
+     }
+     is ServerGarageUserItemPaint  -> {
+       user.equipment.paint = currentItem
+       true
+     }
+     else                          -> {
+       logger.debug {
+         "Player ${user.username} (${user.id}) tried to mount invalid item: ${marketItem.id} (${currentItem::class.simpleName})"
+       }
+       false
+     }
+   }
+
+   if(!equipmentChanged) return
+
+   // DB 更新放进事务模板中执行
+   withTransaction { entityManager ->
+     entityManager
+       .createQuery("UPDATE User SET equipment = :equipment WHERE id = :id")
+       .setParameter("equipment", user.equipment)
+       .setParameter("id", user.id)
+       .executeUpdate()
+   }
+
+   val player = socket.battlePlayer
+   if(player != null) {
+     if(!player.battle.properties[BattleProperty.RearmingEnabled]) {
+       logger.warn { "Player ${player.user.username} attempted to change equipment in battle with disabled rearming" }
+       return
+     }
+     player.equipmentChanged = true
+   }
+
+   Command(CommandName.MountItem, currentItem.mountName, true.toString()).send(socket)
+ }
+
+
 
   // TODO(Assasans): Code repeating
-  @CommandHandler(CommandName.TryBuyItem)
+  /*@CommandHandler(CommandName.TryBuyItem)
   suspend fun tryBuyItem(socket: UserSocket, rawItem: String, count: Int) {
     val user = socket.user ?: throw Exception("No User")
 
@@ -263,7 +325,234 @@ class GarageHandler : ICommandHandler, KoinComponent {
     ).send(socket)
 
     socket.updateCrystals()
+  }*/
+  @CommandHandler(CommandName.TryBuyItem)
+  suspend fun tryBuyItem(socket: UserSocket, rawItem: String, count: Int) {
+    val user = socket.user ?: throw Exception("No User")
+
+    if(count < 1) {
+      logger.debug { "Player ${user.username} (${user.id}) tried to buy invalid count of items: $count" }
+      return
+    }
+
+    val itemId = rawItem.substringBeforeLast("_")
+    val marketItem = marketRegistry.get(itemId)
+
+    // 这些标记只在事务外用，事务里只做纯 DB + 内存修改
+    var shouldUpdateScore = false
+    var supplyCountForBattle: Int? = null
+    var supplyItemIdForBattle: String? = null
+
+    val success = withTransaction { entityManager ->
+      // currentItem / isNewItem 全部放到事务内部，避免 “changing closure” 问题
+      var currentItem = user.items.singleOrNull { userItem -> userItem.marketItem.id == itemId }
+      var isNewItem = false
+
+      when(marketItem) {
+        is ServerGarageItemWeapon -> {
+          if(currentItem == null) {
+            val newItem = ServerGarageUserItemWeapon(user, marketItem.id, 0)
+            val price = newItem.modification.price
+            if(user.crystals < price) {
+              logger.debug {
+                "Player ${user.username} (${user.id}) tried to buy item: ${marketItem.id} ($price crystals), " +
+                        "but does not has enough crystals (user: ${user.crystals} crystals, delta: ${user.crystals - price} crystals)"
+              }
+              return@withTransaction false
+            }
+
+            currentItem = newItem
+            user.items.add(newItem)
+            isNewItem = true
+
+            user.crystals -= price
+            logger.debug { "Bought weapon ${marketItem.id} ($price crystals)" }
+          }
+        }
+
+        is ServerGarageItemHull   -> {
+          if(currentItem == null) {
+            val newItem = ServerGarageUserItemHull(user, marketItem.id, 0)
+            val price = newItem.modification.price
+            if(user.crystals < price) {
+              logger.debug {
+                "Player ${user.username} (${user.id}) tried to buy item: ${marketItem.id} ($price crystals), " +
+                        "but does not has enough crystals (user: ${user.crystals} crystals, delta: ${user.crystals - price} crystals)"
+              }
+              return@withTransaction false
+            }
+
+            currentItem = newItem
+            user.items.add(newItem)
+            isNewItem = true
+
+            user.crystals -= price
+            logger.debug { "Bought hull ${marketItem.id} ($price crystals)" }
+          }
+        }
+
+        is ServerGarageItemPaint  -> {
+          if(currentItem == null) {
+            val newItem = ServerGarageUserItemPaint(user, marketItem.id)
+            val price = newItem.marketItem.price
+            if(user.crystals < price) {
+              logger.debug {
+                "Player ${user.username} (${user.id}) tried to buy item: ${marketItem.id} ($price crystals), " +
+                        "but does not has enough crystals (user: ${user.crystals} crystals, delta: ${user.crystals - price} crystals)"
+              }
+              return@withTransaction false
+            }
+
+            currentItem = newItem
+            user.items.add(newItem)
+            isNewItem = true
+
+            user.crystals -= price
+            logger.debug { "Bought paint ${marketItem.id} ($price crystals)" }
+          }
+        }
+
+        is ServerGarageItemSupply -> {
+          when(marketItem.id) {
+            // 经验包
+            "1000_scores" -> {
+              val price = marketItem.price * count
+              if(user.crystals < price) {
+                logger.debug {
+                  "Player ${user.username} (${user.id}) tried to buy item: ${marketItem.id} ($price crystals), " +
+                          "but does not has enough crystals (user: ${user.crystals} crystals, delta: ${user.crystals - price} crystals)"
+                }
+                return@withTransaction false
+              }
+
+              user.score += 1000 * count
+              user.crystals -= price
+              shouldUpdateScore = true
+
+              logger.debug { "Bought ${marketItem.id} (count: $count, ${count * 1000} XP, $price crystals)" }
+            }
+
+            // 普通补给
+            else -> {
+              // 先算价格，再检查余额
+              val price = marketItem.price * count
+              if(user.crystals < price) {
+                logger.debug {
+                  "Player ${user.username} (${user.id}) tried to buy item: ${marketItem.id} ($price crystals), " +
+                          "but does not has enough crystals (user: ${user.crystals} crystals, delta: ${user.crystals - price} crystals)"
+                }
+                return@withTransaction false
+              }
+
+              // 再修改内存状态
+              if(currentItem == null) {
+                val newItem = ServerGarageUserItemSupply(user, marketItem.id, count)
+                currentItem = newItem
+                user.items.add(newItem)
+                isNewItem = true
+              } else {
+                val supplyItem = currentItem as ServerGarageUserItemSupply
+                supplyItem.count += count
+              }
+
+              user.crystals -= price
+
+              val supplyItem = currentItem as ServerGarageUserItemSupply
+              // 只有老物品需要立即 UPDATE，新增的走 persist
+              if(!isNewItem) {
+                entityManager
+                  .createQuery("UPDATE ServerGarageUserItemSupply SET count = :count WHERE id = :id")
+                  .setParameter("count", supplyItem.count)
+                  .setParameter("id", supplyItem.id)
+                  .executeUpdate()
+              }
+
+              supplyItemIdForBattle = marketItem.id
+              supplyCountForBattle = supplyItem.count
+
+              logger.debug { "Bought supply ${marketItem.id} (count: $count, $price crystals)" }
+            }
+
+          }
+        }
+
+        else                      -> {
+          logger.warn { "Buying item ${marketItem?.javaClass?.simpleName} is not implemented" }
+        }
+      }
+
+      // 新买的物品统一 persist
+      if(isNewItem && currentItem != null) {
+        entityManager.persist(currentItem)
+      }
+
+      // 已有武器 / 车体的升级逻辑：不再依赖 currentItem 的 smart cast
+      val modItem = currentItem as? ServerGarageUserItemWithModification
+      if(!isNewItem && modItem != null && modItem.modificationIndex < 3) {
+        val oldModification = modItem.modificationIndex
+        val newModificationIndex = oldModification + 1
+
+        // 先改内存里的等级，算价格
+        modItem.modificationIndex = newModificationIndex
+        val price = modItem.modification.price
+        if(user.crystals < price) {
+          // 钱不够，恢复原等级
+          modItem.modificationIndex = oldModification
+          logger.debug {
+            "Player ${user.username} (${user.id}) tried to buy item: ${marketItem.id} ($price crystals), " +
+                    "but does not has enough crystals (user: ${user.crystals} crystals, delta: ${user.crystals - price} crystals)"
+          }
+          return@withTransaction false
+        }
+
+        // DB UPDATE
+        entityManager
+          .createQuery("UPDATE ServerGarageUserItemWithModification SET modificationIndex = :modificationIndex WHERE id = :id")
+          .setParameter("modificationIndex", modItem.modificationIndex)
+          .setParameter("id", modItem.id)
+          .executeUpdate()
+
+        user.crystals -= price
+
+        logger.debug {
+          "Upgraded ${marketItem.id} modification: M$oldModification -> M${modItem.modificationIndex} ($price crystals)"
+        }
+      }
+
+      true
+    }
+
+    // 如果事务里返回 false，说明业务校验失败（钱不够之类），直接结束
+    if(!success) return
+
+    if(shouldUpdateScore) {
+      socket.updateScore()
+    }
+
+    userRepository.updateUser(user)
+
+    Command(
+      CommandName.BuyItem,
+      BuyItemResponseData(
+        itemId = marketItem.id,
+        count = if(marketItem is ServerGarageItemSupply) count else 1
+      ).toJson()
+    ).send(socket)
+
+    // 补给数量变更需要通知战场里的玩家
+    if(supplyItemIdForBattle != null && supplyCountForBattle != null) {
+      socket.battlePlayer?.let { battlePlayer ->
+        Command(
+          CommandName.SetItemCount,
+          supplyItemIdForBattle!!,
+          supplyCountForBattle!!.toString()
+        ).send(battlePlayer)
+      }
+    }
+
+    socket.updateCrystals()
   }
+
 
   /*
   SENT    : garage;kitBought;universal_soldier_m0
@@ -294,7 +583,7 @@ class GarageHandler : ICommandHandler, KoinComponent {
       TODO()
     }
   }*/
-  @CommandHandler(CommandName.TryBuyKit)
+  /*@CommandHandler(CommandName.TryBuyKit)
   suspend fun tryBuyKit(socket: UserSocket, rawItem: String) {
     val user = socket.user ?: throw Exception("No User")
 
@@ -418,7 +707,154 @@ class GarageHandler : ICommandHandler, KoinComponent {
     socket.updateCrystals()
 
     logger.debug { "Kit ${marketItem.id} bought successfully" }
+  }*/
+  @CommandHandler(CommandName.TryBuyKit)
+  suspend fun tryBuyKit(socket: UserSocket, rawItem: String) {
+    val user = socket.user ?: throw Exception("No User")
+
+    val itemId = rawItem.substringBeforeLast("_")
+    val marketItem = marketRegistry.get(itemId)
+    if(marketItem !is ServerGarageItemKit) {
+      logger.warn { "Item $itemId is not a kit (${marketItem?.javaClass?.simpleName})" }
+      return
+    }
+
+    logger.debug { "Trying to buy kit ${marketItem.id}..." }
+
+    val price = marketItem.price
+    if(user.crystals < price) {
+      logger.debug {
+        "Player ${user.username} (${user.id}) tried to buy kit ${marketItem.id} " +
+                "but doesn't have enough crystals: has=${user.crystals}, price=$price, delta=${user.crystals - price}"
+      }
+      return
+    }
+
+    withTransaction { entityManager ->
+      // 1. 一次性扣费
+      user.crystals -= price
+
+      // 2. 逐个发放 kit 内的物品
+      marketItem.kit.items.forEach { kitItem ->
+        val baseId = kitItem.id.substringBeforeLast("_")
+        val kitMarketItem = marketRegistry.get(baseId) ?: run {
+          logger.warn { "Unknown kit item id=${kitItem.id} in kit ${marketItem.id}" }
+          return@forEach
+        }
+
+        val modificationIndex = kitItem.id
+          .substringAfterLast("_", "")
+          .removePrefix("m")
+          .toIntOrNull() ?: 0
+
+        var userItem = user.items.singleOrNull { userItem -> userItem.marketItem.id == baseId }
+
+        when(kitMarketItem) {
+          is ServerGarageItemWeapon -> {
+            if(userItem == null) {
+              val newItem = ServerGarageUserItemWeapon(user, kitMarketItem.id, modificationIndex)
+              user.items.add(newItem)
+              userItem = newItem
+              entityManager.persist(newItem)
+            } else if(userItem is ServerGarageUserItemWeapon &&
+              userItem.modificationIndex < modificationIndex) {
+              userItem.modificationIndex = modificationIndex
+              entityManager
+                .createQuery(
+                  "UPDATE ServerGarageUserItemWithModification " +
+                          "SET modificationIndex = :modificationIndex WHERE id = :id"
+                )
+                .setParameter("modificationIndex", userItem.modificationIndex)
+                .setParameter("id", userItem.id)
+                .executeUpdate()
+            }
+          }
+
+          is ServerGarageItemHull -> {
+            if(userItem == null) {
+              val newItem = ServerGarageUserItemHull(user, kitMarketItem.id, modificationIndex)
+              user.items.add(newItem)
+              userItem = newItem
+              entityManager.persist(newItem)
+            } else if(userItem is ServerGarageUserItemHull &&
+              userItem.modificationIndex < modificationIndex) {
+              userItem.modificationIndex = modificationIndex
+              entityManager
+                .createQuery(
+                  "UPDATE ServerGarageUserItemWithModification " +
+                          "SET modificationIndex = :modificationIndex WHERE id = :id"
+                )
+                .setParameter("modificationIndex", userItem.modificationIndex)
+                .setParameter("id", userItem.id)
+                .executeUpdate()
+            }
+          }
+
+          is ServerGarageItemPaint -> {
+            if(userItem == null) {
+              val newItem = ServerGarageUserItemPaint(user, kitMarketItem.id)
+              user.items.add(newItem)
+              entityManager.persist(newItem)
+            }
+          }
+
+          is ServerGarageItemSupply -> {
+            if(userItem == null) {
+              val newItem = ServerGarageUserItemSupply(user, kitMarketItem.id, kitItem.count)
+              user.items.add(newItem)
+              entityManager.persist(newItem)
+            } else if(userItem is ServerGarageUserItemSupply) {
+              userItem.count += kitItem.count
+              entityManager
+                .createQuery("UPDATE ServerGarageUserItemSupply SET count = :count WHERE id = :id")
+                .setParameter("count", userItem.count)
+                .setParameter("id", userItem.id)
+                .executeUpdate()
+            }
+          }
+
+          else -> {
+            logger.warn {
+              "Buying kit item ${kitMarketItem.id} (${kitMarketItem::class.simpleName}) from kit ${marketItem.id} is not implemented"
+            }
+          }
+        }
+      }
+
+      Unit
+    }
+
+    userRepository.updateUser(user)
+    socket.updateCrystals()
+
+    logger.debug { "Kit ${marketItem.id} bought successfully" }
   }
 
+
+
+  // === 事务模板抽取 ===
+  private suspend fun <T> withEntityManager(block: (EntityManager) -> T): T =
+    withContext(Dispatchers.IO) {
+      val entityManager = HibernateUtils.createEntityManager()
+      try {
+        block(entityManager)
+      } finally {
+        entityManager.close()
+      }
+    }
+
+  private suspend fun <T> withTransaction(block: (EntityManager) -> T): T =
+    withEntityManager { entityManager ->
+      val transaction = entityManager.transaction
+      transaction.begin()
+      try {
+        val result = block(entityManager)
+        transaction.commit()
+        result
+      } catch(exception: Exception) {
+        if(transaction.isActive) transaction.rollback()
+        throw exception
+      }
+    }
 
 }
