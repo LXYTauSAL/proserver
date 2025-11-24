@@ -14,6 +14,9 @@ import jp.assasans.protanki.server.commands.CommandName
 import jp.assasans.protanki.server.commands.ICommandHandler
 import jp.assasans.protanki.server.garage.*
 import jakarta.persistence.EntityManager
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 
 
 /*
@@ -38,6 +41,12 @@ class GarageHandler : ICommandHandler, KoinComponent {
 
   private val marketRegistry by inject<IGarageMarketRegistry>()
   private val userRepository by inject<IUserRepository>()
+
+  // 每个 userId 对应一个 Mutex，同一玩家换装串行化
+  private val userEquipmentLocks = ConcurrentHashMap<Int, Mutex>()
+
+  private fun lockForUser(userId: Int): Mutex =
+    userEquipmentLocks.computeIfAbsent(userId) { Mutex() }
 
   @CommandHandler(CommandName.TryMountPreviewItem)
   suspend fun tryMountPreviewItem(socket: UserSocket, item: String) {
@@ -95,7 +104,7 @@ class GarageHandler : ICommandHandler, KoinComponent {
 
     Command(CommandName.MountItem, currentItem.mountName, true.toString()).send(socket)
   }*/
- @CommandHandler(CommandName.TryMountItem)
+ /*@CommandHandler(CommandName.TryMountItem)
  suspend fun tryMountItem(socket: UserSocket, rawItem: String) {
    val user = socket.user ?: throw Exception("No User")
 
@@ -152,6 +161,81 @@ class GarageHandler : ICommandHandler, KoinComponent {
    }
 
    Command(CommandName.MountItem, currentItem.mountName, true.toString()).send(socket)
+ }*/
+ @CommandHandler(CommandName.TryMountItem)
+ suspend fun tryMountItem(socket: UserSocket, rawItem: String) {
+   val user = socket.user ?: throw Exception("No User")
+
+   // 先拿到 battlePlayer，看是否在战局中
+   val player = socket.battlePlayer
+   if(player != null && !player.battle.properties[BattleProperty.RearmingEnabled]) {
+     // 战斗不允许换装：直接拒绝，不改内存、不写 DB
+     logger.warn {
+       "Player ${player.user.username} attempted to change equipment in battle '${player.battle.id}' " +
+               "with disabled rearming"
+     }
+     return
+   }
+
+   val itemId = rawItem.substringBeforeLast("_")
+   val marketItem = marketRegistry.get(itemId)
+
+   // 同一玩家的 TryMountItem 串行执行，避免同一行并发 UPDATE
+   val mutex = lockForUser(user.id)
+
+   mutex.withLock {
+     val currentItem = user.items.singleOrNull { userItem -> userItem.marketItem.id == itemId }
+
+     logger.debug { "Trying to mount ${marketItem.id} for user ${user.username} (${user.id})..." }
+
+     if(currentItem == null) {
+       logger.debug {
+         "Player ${user.username} (${user.id}) tried to mount not owned item: ${marketItem.id}"
+       }
+       return@withLock
+     }
+
+     val equipmentChanged = when(currentItem) {
+       is ServerGarageUserItemWeapon -> {
+         user.equipment.weapon = currentItem
+         true
+       }
+       is ServerGarageUserItemHull   -> {
+         user.equipment.hull = currentItem
+         true
+       }
+       is ServerGarageUserItemPaint  -> {
+         user.equipment.paint = currentItem
+         true
+       }
+       else                          -> {
+         logger.debug {
+           "Player ${user.username} (${user.id}) tried to mount invalid item: " +
+                   "${marketItem.id} (${currentItem::class.simpleName})"
+         }
+         false
+       }
+     }
+
+     if(!equipmentChanged) return@withLock
+
+     // DB 更新放进事务模板中执行，事务内只做短 UPDATE
+     withTransaction { entityManager ->
+       entityManager
+         .createQuery("UPDATE User SET equipment = :equipment WHERE id = :id")
+         .setParameter("equipment", user.equipment)
+         .setParameter("id", user.id)
+         .executeUpdate()
+     }
+
+     // 如果在战斗里，标记装备已改变，方便后续在死亡/复活时重建 Tank
+     if(player != null) {
+       player.equipmentChanged = true
+     }
+
+     // 通知客户端挂载成功
+     Command(CommandName.MountItem, currentItem.mountName, true.toString()).send(socket)
+   }
  }
 
 

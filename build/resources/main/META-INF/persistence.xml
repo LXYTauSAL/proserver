@@ -53,7 +53,7 @@
       <!-- <property name="hibernate.hikari.dataSource.url" value="jdbc:h2:mem:protanki-server" /> -->
       <!--<property name="hibernate.hikari.dataSource.url" value="jdbc:h2:file:./protanki-server" />-->
       <!-- <property name="hibernate.hikari.dataSource.url" value="jdbc:mariadb://localhost:3306/protanki-server" /> -->
-      <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://180.76.116.94:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
+      <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://127.0.0.1:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
 
 
       <property name="hibernate.hikari.username" value="ProtankiAdmin" />
@@ -76,7 +76,7 @@
 
       <!-- 新增：连接有效性检测（每次拿连接前验证，避免无效连接占用） -->
       <property name="hibernate.hikari.connectionTestQuery" value="SELECT 1" />
-      
+
     </properties>
   </persistence-unit>
 </persistence>

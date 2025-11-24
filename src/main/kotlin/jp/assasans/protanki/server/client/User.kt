@@ -161,10 +161,20 @@ class UserRepository : IUserRepository {
   override suspend fun updateUser(user: User): Unit = withContext(Dispatchers.IO) {
     logger.debug { "Updating user \"${user.username}\" (${user.id})..." }
 
-    entityManager.transaction.begin()
-    entityManager.merge(user)
-    entityManager.transaction.commit()
+    val tx = entityManager.transaction
+    try {
+      tx.begin()
+      entityManager.merge(user)
+      tx.commit()
+    } catch (ex: Exception) {
+      if (tx.isActive) tx.rollback()
+      logger.error(ex) { "Failed to update user ${user.id}" }
+      throw ex
+    }
   }
+
+
+
 }
 
 @Entity
