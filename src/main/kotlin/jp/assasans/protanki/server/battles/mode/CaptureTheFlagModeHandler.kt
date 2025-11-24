@@ -8,6 +8,7 @@ import jp.assasans.protanki.server.math.Vector3
 import jp.assasans.protanki.server.quests.DeliverFlagQuest
 import jp.assasans.protanki.server.quests.questOf
 import jp.assasans.protanki.server.toVector
+import mu.KotlinLogging
 
 abstract class FlagState(val team: BattleTeam)
 
@@ -38,7 +39,7 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
     BattleTeam.Red to FlagOnPedestalState(BattleTeam.Red),
     BattleTeam.Blue to FlagOnPedestalState(BattleTeam.Blue)
   )
-
+  private val logger = KotlinLogging.logger { }
   private val flagOffsetZ = 80
 
   /*suspend fun captureFlag(flagTeam: BattleTeam, carrier: BattleTank) {
@@ -94,31 +95,37 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
   }
 
   suspend fun dropFlag(flagTeam: BattleTeam, carrier: BattleTank, position: Vector3) {
-    // 仍然保留原来的 carrier 参数，CtfBattleHandler 里会传 tank 进来
     val current = flags[flagTeam] ?: return
     flags[flagTeam] = current.asDropped(position)
 
+    // 确保发送正确的掉落位置信息
     Command(
       CommandName.FlagDropped,
       FlagDroppedData(
         x = position.x,
         y = position.y,
-        z = position.z,
+        z = position.z + flagOffsetZ,  // 增加高度偏移，与初始化时一致
         flagTeam = flagTeam
-      ).toJson()        // ✅ 还是用原来的 JSON 字符串
+      ).toJson()
     ).sendTo(battle)
   }
 
   suspend fun deliverFlag(enemyFlagTeam: BattleTeam, flagTeam: BattleTeam, carrier: BattleTank) {
-    // enemyFlagTeam 就是对方旗子所在队伍，保持原有函数签名
     val enemyFlagState = flags[enemyFlagTeam] ?: return
-//    flags[enemyFlagTeam] = enemyFlagState.asOnPedestal()
-    addTeamScore(flagTeam)
-    teamScores.merge(flagTeam, 1, Int::plus)
+    // 新增防护：如果敌方旗帜已在基座，说明已处理过，直接返回
+    if (enemyFlagState is FlagOnPedestalState) {
+      logger.warn { "重复触发旗帜交付：${enemyFlagTeam} 旗帜已在基座" }
+      return
+    }
+
+    flags[enemyFlagTeam] = enemyFlagState.asOnPedestal()  // 敌方旗帜复位
+    addTeamScore(flagTeam)  // 仅保留一处加分（根据实际情况选择）
+    // teamScores.merge(flagTeam, 1, Int::plus)  // 二选一
 
     Command(CommandName.FlagDelivered, flagTeam.key, carrier.id).sendTo(battle)
-//    updateScores()
+    updateScores()
 
+    // 任务进度更新（保留）
     carrier.player.user.questOf<DeliverFlagQuest>()?.let { quest ->
       quest.current++
       carrier.socket.updateQuests()
@@ -143,11 +150,17 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
 
 
 
-
   override suspend fun playerLeave(player: BattlePlayer) {
     val tank = player.tank ?: return
-    val flag = flags.values.filterIsInstance<FlagCarryingState>().singleOrNull { flag -> flag.carrier == tank } ?: return
-    dropFlag(flag.team, tank, tank.position)
+    val flag = flags.values.filterIsInstance<FlagCarryingState>().singleOrNull { it.carrier == tank } ?: return
+
+    // 修复：用 Vector3 构造函数拷贝位置，替代 copy() 方法
+    val dropPosition = Vector3(
+      x = tank.position.x,
+      y = tank.position.y,
+      z = tank.position.z + flagOffsetZ  // 保持原逻辑的高度偏移
+    )
+    dropFlag(flag.team, tank, dropPosition)
 
     super.playerLeave(player)
   }
@@ -185,8 +198,22 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
       lighting = CtfModelLighting().toJson(),
       basePosRedFlag = redFlagPosition.toVectorData(),
       basePosBlueFlag = blueFlagPosition.toVectorData(),
-      posRedFlag = if(redFlagState is FlagDroppedState) redFlagState.position.toVectorData() else null,
-      posBlueFlag = if(blueFlagState is FlagDroppedState) blueFlagState.position.toVectorData() else null,
+      posRedFlag = if(redFlagState is FlagDroppedState) {
+        // 修复：用构造函数拷贝位置，替代 copy()
+        Vector3(
+          x = redFlagState.position.x,
+          y = redFlagState.position.y,
+          z = redFlagState.position.z + flagOffsetZ
+        ).toVectorData()
+      } else null,
+      posBlueFlag = if(blueFlagState is FlagDroppedState) {
+        // 修复：用构造函数拷贝位置，替代 copy()
+        Vector3(
+          x = blueFlagState.position.x,
+          y = blueFlagState.position.y,
+          z = blueFlagState.position.z + flagOffsetZ
+        ).toVectorData()
+      } else null,
       redFlagCarrierId = if(redFlagState is FlagCarryingState) redFlagState.carrier.id else null,
       blueFlagCarrierId = if(blueFlagState is FlagCarryingState) blueFlagState.carrier.id else null
     )
