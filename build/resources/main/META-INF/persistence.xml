@@ -76,9 +76,7 @@
 
       <!-- 新增：连接有效性检测（每次拿连接前验证，避免无效连接占用） -->
       <property name="hibernate.hikari.connectionTestQuery" value="SELECT 1" />
-
-      <!-- 新增：连接最大存活时间（1小时，强制回收长期占用的连接） -->
-      <property name="hibernate.hikari.maxLifetime" value="3600000" />
+      
     </properties>
   </persistence-unit>
 </persistence>

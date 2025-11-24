@@ -8,6 +8,7 @@ import jp.assasans.protanki.server.math.Vector3
 import jp.assasans.protanki.server.quests.DeliverFlagQuest
 import jp.assasans.protanki.server.quests.questOf
 import jp.assasans.protanki.server.toVector
+import kotlinx.coroutines.*
 import mu.KotlinLogging
 
 abstract class FlagState(val team: BattleTeam)
@@ -42,6 +43,12 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
   private val logger = KotlinLogging.logger { }
   private val flagOffsetZ = 80
 
+  // 新增：管理旗帜掉落计时器（key：队伍，value：当前计时器任务）
+  private val flagDropTimers = mutableMapOf<BattleTeam, Job>()
+  // 新增：旗帜自动归位延迟时间（30秒）
+  private val autoReturnDelayMs = 30_000L
+  // 协程作用域（与battle生命周期绑定，避免内存泄漏）
+  private val coroutineScope = CoroutineScope(Dispatchers.IO + SupervisorJob())
   /*suspend fun captureFlag(flagTeam: BattleTeam, carrier: BattleTank) {
     flags[flagTeam] = flags[flagTeam]!!.asCarrying(carrier) // TODO(Assasans): Non-null assertion
 
@@ -89,6 +96,11 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
   suspend fun captureFlag(flagTeam: BattleTeam, carrier: BattleTank) {
     // 原来是 flags[flagTeam]!!，这里改成安全写法，找不到就直接不处理
     val current = flags[flagTeam] ?: return
+
+    // 取消该旗帜的掉落计时器（因为已被拾取）
+    flagDropTimers[flagTeam]?.cancel()
+    flagDropTimers.remove(flagTeam)
+
     flags[flagTeam] = current.asCarrying(carrier)
 
     Command(CommandName.FlagCaptured, carrier.id, flagTeam.key).sendTo(battle)
@@ -108,6 +120,21 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
         flagTeam = flagTeam
       ).toJson()
     ).sendTo(battle)
+
+    // 新增：启动自动归位计时器
+    // 先取消该旗帜已有的计时器（避免重复计时）
+    flagDropTimers[flagTeam]?.cancel()
+    // 启动新计时器
+    val timerJob = coroutineScope.launch {
+      delay(autoReturnDelayMs) // 等待30秒
+      // 检查旗帜是否仍处于掉落状态
+      val flagState = flags[flagTeam]
+      if(flagState is FlagDroppedState) {
+        logger.debug { "${flagTeam}旗帜掉落超过30秒，自动归位" }
+        returnFlag(flagTeam, null) // 归位（carrier为null表示自动归位）
+      }
+    }
+    flagDropTimers[flagTeam] = timerJob
   }
 
   suspend fun deliverFlag(enemyFlagTeam: BattleTeam, flagTeam: BattleTeam, carrier: BattleTank) {
@@ -135,6 +162,10 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
 
   suspend fun returnFlag(flagTeam: BattleTeam, carrier: BattleTank?) {
     val current = flags[flagTeam] ?: return
+    // 取消该旗帜的掉落计时器（因为已归位）
+    flagDropTimers[flagTeam]?.cancel()
+    flagDropTimers.remove(flagTeam)
+
     flags[flagTeam] = current.asOnPedestal()
 
     Command(
@@ -148,7 +179,12 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
     flags.keys.forEach { team -> flags[team] = FlagOnPedestalState(team) }
   }
 
-
+  // 在CaptureTheFlagModeHandler中修改onDestroy方法
+  fun onDestroy() {
+    // 移除super.onDestroy()，因为父类没有该方法
+    coroutineScope.cancel() // 取消所有协程任务
+    flagDropTimers.clear()
+  }
 
   override suspend fun playerLeave(player: BattlePlayer) {
     val tank = player.tank ?: return

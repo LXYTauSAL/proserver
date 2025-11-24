@@ -491,4 +491,6 @@ class BattleProcessor : IBattleProcessor {
     override val battles: MutableList<Battle> = mutableListOf()
 
     override fun getBattle(id: String): Battle? = battles.singleOrNull { battle -> battle.id == id }
+
+
 }

@@ -32,10 +32,9 @@ class CtfBattleHandler : ICommandHandler, KoinComponent {
 
     logger.debug { "Triggered flag ${flag.team}, state: ${flag::class.simpleName}" }
 
-    if(player.team != flag.team && flag is FlagOnPedestalState) {  // 修改条件，明确检查基座状态
+    if(player.team != flag.team && (flag is FlagOnPedestalState || flag is FlagDroppedState)) {
       handler.captureFlag(flag.team, tank)
       logger.debug { "Captured ${flag.team} flag by ${player.user.username}" }
-
     } else if(player.team == flag.team) {
       val enemyFlag = handler.flags[flag.team.opposite]!!
       if(flag is FlagOnPedestalState && enemyFlag is FlagCarryingState && enemyFlag.carrier == tank) {
