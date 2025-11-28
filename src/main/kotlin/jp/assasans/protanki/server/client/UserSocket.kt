@@ -563,9 +563,40 @@ class UserSocket(
       CommandName.InitMountedItem,
       user.equipment.paint.mountName, user.equipment.paint.marketItem.coloring.toString()
     ).send(this)
-    val marketJson = InitGarageMarketData(items = marketParsed).toJson()
-    logger.info { "InitGarageMarket JSON: ${marketJson.take(500)}" }
-    Command(CommandName.InitGarageMarket, InitGarageMarketData(items = marketParsed).toJson()).send(this)
+
+    val player = battlePlayer  // 在大厅里是 null，在战斗中是当前 BattlePlayer
+    val cooldownMs = 10 * 60 * 1000L // 10 分钟
+
+    fun remainingSeconds(lastChangeTime: Long?): Int {
+      // 不在战斗里：车库不限时
+      if(player == null) return 0
+      if(lastChangeTime == null || lastChangeTime == 0L) return 0
+
+      val now = System.currentTimeMillis()
+      val remainMs = cooldownMs - (now - lastChangeTime)
+      if(remainMs <= 0L) return 0
+
+      return (remainMs / 1000L).toInt()
+    }
+
+    val delayArmorSeconds  = remainingSeconds(player?.lastHullChangeTime)    // 底盘冷却
+    val delayWeaponSeconds = remainingSeconds(player?.lastWeaponChangeTime)  // 炮塔冷却
+    val delayColorSeconds  = remainingSeconds(player?.lastPaintChangeTime)   // 迷彩冷却
+
+
+    val marketData = InitGarageMarketData(
+      items = marketParsed,
+      delayMountArmorInSec  = delayArmorSeconds,
+      delayMountWeaponInSec = delayWeaponSeconds,
+      delayMountColorInSec  = delayColorSeconds
+    )
+
+    val marketJson = marketData.toJson()
+    logger.info {
+      "InitGarageMarket JSON: ${marketJson.take(500)} " +
+              "(armor=$delayArmorSeconds, weapon=$delayWeaponSeconds, color=$delayColorSeconds)"
+    }
+    Command(CommandName.InitGarageMarket, marketJson).send(this)
 
     // logger.debug { "User items:" }
     // itemsParsed

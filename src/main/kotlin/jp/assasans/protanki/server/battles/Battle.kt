@@ -131,7 +131,7 @@ class Battle(
      *
      * 如果某些图掉得太久才死，可以把 2000 再调小一点；如果误杀就调大一点。
      */
-    val fallDeathZ: Double = minSpawnZ - 150.0
+    val fallDeathZ: Double = minSpawnZ - 600.0
 
     val mineProcessor = MineProcessor(this)
     val fundProcessor = FundProcessor(this)

@@ -166,17 +166,6 @@ class GarageHandler : ICommandHandler, KoinComponent {
  suspend fun tryMountItem(socket: UserSocket, rawItem: String) {
    val user = socket.user ?: throw Exception("No User")
 
-   // 先拿到 battlePlayer，看是否在战局中
-   val player = socket.battlePlayer
-   if(player != null && !player.battle.properties[BattleProperty.RearmingEnabled]) {
-     // 战斗不允许换装：直接拒绝，不改内存、不写 DB
-     logger.warn {
-       "Player ${player.user.username} attempted to change equipment in battle '${player.battle.id}' " +
-               "with disabled rearming"
-     }
-     return
-   }
-
    val itemId = rawItem.substringBeforeLast("_")
    val marketItem = marketRegistry.get(itemId)
 
@@ -184,6 +173,9 @@ class GarageHandler : ICommandHandler, KoinComponent {
    val mutex = lockForUser(user.id)
 
    mutex.withLock {
+     // 在锁内拿 battlePlayer，保证状态最新
+     val player = socket.battlePlayer
+
      val currentItem = user.items.singleOrNull { userItem -> userItem.marketItem.id == itemId }
 
      logger.debug { "Trying to mount ${marketItem.id} for user ${user.username} (${user.id})..." }
@@ -195,6 +187,42 @@ class GarageHandler : ICommandHandler, KoinComponent {
        return@withLock
      }
 
+     // =========================
+     // 在战场中时的检查逻辑
+     // =========================
+     if(player != null) {
+       // 1）战斗不允许换装，直接拒绝
+       if(!player.battle.properties[BattleProperty.RearmingEnabled]) {
+         logger.warn {
+           "Player ${player.user.username} attempted to change equipment in battle '${player.battle.id}' " +
+                   "with disabled rearming"
+         }
+         return@withLock
+       }
+
+       // 2）按类别做 10 分钟冷却（炮塔 / 底盘 / 迷彩互不影响）
+       val now = System.currentTimeMillis()
+       val cooldownMs = 10 * 60 * 1000L // 10 分钟
+
+       val lastChange = when(currentItem) {
+         is ServerGarageUserItemWeapon -> player.lastWeaponChangeTime
+         is ServerGarageUserItemHull   -> player.lastHullChangeTime
+         is ServerGarageUserItemPaint  -> player.lastPaintChangeTime
+         else                          -> 0L // 其他类型暂不做限制
+       }
+
+       if(lastChange != 0L && now - lastChange < cooldownMs) {
+         val remainSec = ((cooldownMs - (now - lastChange)) / 1000).coerceAtLeast(1)
+         logger.debug {
+           "Player ${player.user.username} attempted to change ${currentItem::class.simpleName} " +
+                   "in battle '${player.battle.id}' before cooldown finished (${remainSec}s left)"
+         }
+         // 不改装备、不写 DB、不发 MountItem
+         return@withLock
+       }
+     }
+
+     // 真正修改装备
      val equipmentChanged = when(currentItem) {
        is ServerGarageUserItemWeapon -> {
          user.equipment.weapon = currentItem
@@ -228,15 +256,25 @@ class GarageHandler : ICommandHandler, KoinComponent {
          .executeUpdate()
      }
 
-     // 如果在战斗里，标记装备已改变，方便后续在死亡/复活时重建 Tank
+     // 在战斗里：标记需要重建坦克 + 记录本次该类别换装时间
      if(player != null) {
+
+       val now = System.currentTimeMillis()
+       when(currentItem) {
+         is ServerGarageUserItemWeapon -> player.lastWeaponChangeTime = now
+         is ServerGarageUserItemHull   -> player.lastHullChangeTime = now
+         is ServerGarageUserItemPaint  -> player.lastPaintChangeTime = now
+       }
        player.equipmentChanged = true
+
      }
 
      // 通知客户端挂载成功
      Command(CommandName.MountItem, currentItem.mountName, true.toString()).send(socket)
    }
  }
+
+
 
 
 

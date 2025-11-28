@@ -41,6 +41,9 @@ class BattlePlayer(
   var kills: Int = 0,
   var deaths: Int = 0
 ) : KoinComponent {
+
+  var lastEquipmentChangeTime: Long = 0L  // 最近一次在战场内成功换装的时间（毫秒）
+
   private val logger = KotlinLogging.logger { }
 
   private val mapRegistry: IMapRegistry by inject()
@@ -63,6 +66,10 @@ class BattlePlayer(
   var initSpectatorUserCalled: Boolean = false
 
   var equipmentChanged: Boolean = false
+
+  var lastWeaponChangeTime: Long = 0L
+  var lastHullChangeTime: Long = 0L
+  var lastPaintChangeTime: Long = 0L
 
   suspend fun deactivate(terminate: Boolean = false) {
     tank?.deactivate(terminate)

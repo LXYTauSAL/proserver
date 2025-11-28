@@ -139,26 +139,23 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
 
   suspend fun deliverFlag(enemyFlagTeam: BattleTeam, flagTeam: BattleTeam, carrier: BattleTank) {
     val enemyFlagState = flags[enemyFlagTeam] ?: return
-    // 新增防护：如果敌方旗帜已在基座，说明已处理过，直接返回
     if (enemyFlagState is FlagOnPedestalState) {
       logger.warn { "重复触发旗帜交付：${enemyFlagTeam} 旗帜已在基座" }
       return
     }
 
-    flags[enemyFlagTeam] = enemyFlagState.asOnPedestal()  // 敌方旗帜复位
-    addTeamScore(flagTeam)  // 仅保留一处加分（根据实际情况选择）
-    // teamScores.merge(flagTeam, 1, Int::plus)  // 二选一
+    flags[enemyFlagTeam] = enemyFlagState.asOnPedestal()
+    addTeamScore(flagTeam)
 
     Command(CommandName.FlagDelivered, flagTeam.key, carrier.id).sendTo(battle)
-    updateScores()
 
-    // 任务进度更新（保留）
     carrier.player.user.questOf<DeliverFlagQuest>()?.let { quest ->
       quest.current++
       carrier.socket.updateQuests()
       quest.updateProgress()
     }
   }
+
 
   suspend fun returnFlag(flagTeam: BattleTeam, carrier: BattleTank?) {
     val current = flags[flagTeam] ?: return
@@ -176,30 +173,36 @@ class CaptureTheFlagModeHandler(battle: Battle) : TeamModeHandler(battle) {
   }
 
   fun resetFlags() {
-    flags.keys.forEach { team -> flags[team] = FlagOnPedestalState(team) }
-  }
-
-  // 在CaptureTheFlagModeHandler中修改onDestroy方法
-  fun onDestroy() {
-    // 移除super.onDestroy()，因为父类没有该方法
-    coroutineScope.cancel() // 取消所有协程任务
+    flags.keys.forEach { team ->
+      flags[team] = FlagOnPedestalState(team)
+      flagDropTimers[team]?.cancel()
+    }
     flagDropTimers.clear()
   }
 
   override suspend fun playerLeave(player: BattlePlayer) {
-    val tank = player.tank ?: return
-    val flag = flags.values.filterIsInstance<FlagCarryingState>().singleOrNull { it.carrier == tank } ?: return
+    val tank = player.tank
 
-    // 修复：用 Vector3 构造函数拷贝位置，替代 copy() 方法
-    val dropPosition = Vector3(
-      x = tank.position.x,
-      y = tank.position.y,
-      z = tank.position.z + flagOffsetZ  // 保持原逻辑的高度偏移
-    )
-    dropFlag(flag.team, tank, dropPosition)
+    // 有坦克时才可能扛旗；没有坦克就只做“离开”的逻辑
+    if(tank != null) {
+      val flag = flags.values
+        .filterIsInstance<FlagCarryingState>()
+        .singleOrNull { it.carrier == tank }
 
+      if(flag != null) {
+        val dropPosition = Vector3(
+          x = tank.position.x,
+          y = tank.position.y,
+          z = tank.position.z
+        )
+        dropFlag(flag.team, tank, dropPosition)
+      }
+    }
+
+    // 不管有没有旗，都要调用父类，确保广播 user_disconnect_team
     super.playerLeave(player)
   }
+
 
   override suspend fun initModeModel(player: BattlePlayer) {
     Command(
