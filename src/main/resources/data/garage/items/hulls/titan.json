@@ -3,11 +3,11 @@
   "index": 21,
 
   "name": {
-    "en": "Titan",
+    "en": "泰 坦",
     "ru": "Титан"
   },
   "description": {
-    "en": "Titan alloy armor plates combined with special geometry make this hull highly effective even against large-caliber weapons. With Titan, you can plunge into the thick of a battle without any hesitation. Please note that due to low speed this hull is not suitable for fast attacks behind enemy lines.",
+    "en": "",
     "ru": "Броня из сверхпрочного титанового сплава вкупе с грамотно спроектированной геометрией позволяет данному корпусу отлично противостоять даже крупнокалиберным пушкам. Танк, оборудованный данным корпусом, может без раздумий отправляться в самое пекло. Следует отметить, что из-за низкой скорости этот корпус непригоден для быстрых атак в тыл врага."
   },
 
@@ -22,7 +22,7 @@
       "price": 300,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2000 },
+        { "property": "HULL_ARMOR", "value": 224 },
         { "property": "HULL_SPEED", "value": 5.30 },
         { "property": "HULL_TURN_SPEED", "value": 55.7 },
         { "property": "HULL_MASS", "value": 3571 },
@@ -55,7 +55,7 @@
       "price": 12100,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2750 },
+        { "property": "HULL_ARMOR", "value": 289 },
         { "property": "HULL_SPEED", "value": 5.50 },
         { "property": "HULL_TURN_SPEED", "value": 67.1 },
         { "property": "HULL_MASS", "value": 4047 },
@@ -88,7 +88,7 @@
       "price": 70500,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 3350 },
+        { "property": "HULL_ARMOR", "value": 355 },
         { "property": "HULL_SPEED", "value": 5.80 },
         { "property": "HULL_TURN_SPEED", "value": 78.6 },
         { "property": "HULL_MASS", "value": 4524 },
@@ -121,7 +121,7 @@
       "price": 210000,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 4000 },
+        { "property": "HULL_ARMOR", "value": 420 },
         { "property": "HULL_SPEED", "value": 6.00 },
         { "property": "HULL_TURN_SPEED", "value": 90 },
         { "property": "HULL_MASS", "value": 5000 },

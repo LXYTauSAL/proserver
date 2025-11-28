@@ -3,11 +3,11 @@
   "index": 22,
 
   "name": {
-    "en": "Mammoth",
+    "en": "猛犸象",
     "ru": "Мамонт"
   },
   "description": {
-    "en": "This is not a tank – this is a fortress on tracks. Mammoth is the flagship among other hulls. Extremely heavy, strengthened with super-concrete this hull is slow, which does not prevent Mammoth from successfully fighting against several enemy tanks.",
+    "en": "",
     "ru": "Самоходная крепость на гусеничном ходу. Флагман среди танковых корпусов. Цельнолитой, тяжёлый, упрочнённый супербетоном, имеет низкую скорость, что не мешает ему с успехом противостоять одновременно нескольким вражеским орудиям."
   },
 
@@ -22,7 +22,7 @@
       "price": 600,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2000 },
+        { "property": "HULL_ARMOR", "value": 268 },
         { "property": "HULL_SPEED", "value": 4.40 },
         { "property": "HULL_TURN_SPEED", "value": 54 },
         { "property": "HULL_MASS", "value": 4262 },
@@ -55,7 +55,7 @@
       "price": 25450,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2750 },
+        { "property": "HULL_ARMOR", "value": 339 },
         { "property": "HULL_SPEED", "value": 4.60 },
         { "property": "HULL_TURN_SPEED", "value": 64.1 },
         { "property": "HULL_MASS", "value": 4743 },
@@ -88,7 +88,7 @@
       "price": 94650,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 3350 },
+        { "property": "HULL_ARMOR", "value": 409 },
         { "property": "HULL_SPEED", "value": 4.90 },
         { "property": "HULL_TURN_SPEED", "value": 74.2 },
         { "property": "HULL_MASS", "value": 5225 },
@@ -121,7 +121,7 @@
       "price": 240000,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 4000 },
+        { "property": "HULL_ARMOR", "value": 450 },
         { "property": "HULL_SPEED", "value": 5.00 },
         { "property": "HULL_TURN_SPEED", "value": 80 },
         { "property": "HULL_MASS", "value": 5500 },

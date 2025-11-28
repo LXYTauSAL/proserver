@@ -3,11 +3,11 @@
   "index": 14,
 
   "name": {
-    "en": "Ricochet",
+    "en": "火龙珠",
     "ru": "Рикошет"
   },
   "description": {
-    "en": "Ricochet plasma gun is a new secret project of Siberian scientists. To produce this gun team of 22 high-class professionals have been working in the underground bunker more than three years without permission to exit on the surface. And they have created a unique weapon. It throws plasma charges cloaked with clever minus-field. When such charge hits the tank it explodes but it bounces of any other surface. So with Ricochet you can heat targets out of your visibility range. But be careful! Do not stand in the way of a released charge, as you can't do damage to yourself.",
+    "en": "",
     "ru": "Плазмомёт «Рикошет» — это новая секретная разработка сибирских ученых. Чтобы поставить её на вооружение, команда из 22 специалистов три года работала в подземном бункере без права выхода на поверхность. В итоге они создали уникальное оружие. Оно выпускает плазменные заряды, окутанные «умным» минус-полем. При попадании в танк заряд взрывается, но от других поверхностей отскакивает и продолжает полёт. Таким образом, из Рикошета можно поразить цель, даже не видя её."
   },
 
@@ -25,8 +25,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 140 },
-            { "property": "DAMAGE_TO", "value": 160 }
+            { "property": "DAMAGE_FROM", "value": 19 },
+            { "property": "DAMAGE_TO", "value": 23 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 164 },
@@ -47,7 +47,7 @@
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 10000, "discharge": 14378, "interval": 565 },
-        "range": { "from": 140, "to": 160 },
+        "range": { "from": 19, "to": 23 },
         "weakening": { "from": 67.38, "to": 81.06, "minimum": 0 }
       },
 
@@ -116,8 +116,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 190 },
-            { "property": "DAMAGE_TO", "value": 210 }
+            { "property": "DAMAGE_FROM", "value": 24 },
+            { "property": "DAMAGE_TO", "value": 29 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 193 },
@@ -138,7 +138,7 @@
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 10000, "discharge": 13764, "interval": 528 },
-        "range": { "from": 190, "to": 210 },
+        "range": { "from": 24, "to": 29 },
         "weakening": { "from": 72.29, "to": 88.43, "minimum": 0 }
       },
 
@@ -207,8 +207,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 240 },
-            { "property": "DAMAGE_TO", "value": 260 }
+            { "property": "DAMAGE_FROM", "value": 29 },
+            { "property": "DAMAGE_TO", "value": 35 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 223 },
@@ -229,7 +229,7 @@
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 10000, "discharge": 13151, "interval": 491 },
-        "range": { "from": 240, "to": 260 },
+        "range": { "from": 29, "to": 35 },
         "weakening": { "from": 77.19, "to": 95.79, "minimum": 0 }
       },
 
@@ -298,8 +298,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 280 },
-            { "property": "DAMAGE_TO", "value": 320 }
+            { "property": "DAMAGE_FROM", "value": 32 },
+            { "property": "DAMAGE_TO", "value": 38 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 240 },
@@ -320,7 +320,7 @@
 
       "damage": {
         "stream": { "capacity": 1000, "charge": 100, "discharge": 128, "interval": 470 },
-        "range": { "from": 280, "to": 320 },
+        "range": { "from": 32, "to": 38 },
         "weakening": { "from": 80, "to": 100, "minimum": 0 }
       },
 

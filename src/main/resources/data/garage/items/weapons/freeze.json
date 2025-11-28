@@ -3,11 +3,11 @@
   "index": 13,
 
   "name": {
-    "en": "Freeze",
+    "en": "冰风暴",
     "ru": "Фриз"
   },
   "description": {
-    "en": "The idea of Freeze weapon system was born in a desolate Russian village. Using an old broken refrigerator «Sever» and avacuum cleaner «Buran» local inventor made the «freeze thrower». A professional engineer who had been fishing near the village noticed this invention and brought it to the Zhukov Research Institute. There the clumsy «freeze thrower» became the formidable Freeze gun. It showers enemy with the chemical composition based on freon. Victims take damage and all their movements and processes become slower. Though a flow of fire can unfreeze the target.",
+    "en": "",
     "ru": "Концепция грозной установки «Фриз» родилась в глухой русской деревне. Из неисправного холодильника «Север» и пылесоса «Буран» местный кулибин собрал «хладомёт». Новинку заметил рыбачивший в тех краях инженер. После доработки в закрытом НИИ им. Жукова «хладомёт» превратился в танковое орудие «Фриз». Заливая противника химическим составом на основе фреона, пушка наносит урон и замораживает объект, замедляя все его движения и процессы. Правда, струя пламени может разморозить жертву."
   },
 
@@ -25,7 +25,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 110 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 48 }
           ]
         },
         {
@@ -45,7 +45,7 @@
 
       "damage": {
         "stream": { "capacity": 1000, "charge": 82, "discharge": 111, "interval": 500 },
-        "fixed": { "value": 110 },
+        "fixed": { "value": 48 },
         "weakening": { "from": 5, "to": 24.75, "minimum": 0.5 }
       },
 
@@ -106,7 +106,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 150 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 60 }
           ]
         },
         {
@@ -126,7 +126,7 @@
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 8749, "discharge": 11100, "interval": 500 },
-        "fixed": { "value": 150 },
+        "fixed": { "value": 60 },
         "weakening": { "from": 5, "to": 26.68, "minimum": 0.5 }
       }
     },
@@ -141,7 +141,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 190 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 72 }
           ]
         },
         {
@@ -161,7 +161,7 @@
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 9434, "discharge": 11100, "interval": 500 },
-        "fixed": { "value": 190 },
+        "fixed": { "value": 72 },
         "weakening": { "from": 5, "to": 28.62, "minimum": 0.5 }
       }
     },
@@ -176,7 +176,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 240 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 80 }
           ]
         },
         {
@@ -196,7 +196,7 @@
 
       "damage": {
         "stream": { "capacity": 1000, "charge": 100, "discharge": 111, "interval": 500 },
-        "fixed": { "value": 240 },
+        "fixed": { "value": 80 },
         "weakening": { "from": 5, "to": 30, "minimum": 0.5 }
       }
     }
