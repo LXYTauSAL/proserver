@@ -7,7 +7,7 @@
     "ru": "Смоки"
   },
   "description": {
-    "en": "",
+    "en": "Medium-caliber tank gun which is generally used in light and training tanks. The key to its popularity is low price and ease of maintenance. Put it on a light hull and use wearing-out strategy against heavy clumsy tanks of your opponents. Several upgrades can significantly increase the damage dealt by this little baby. Remember that Smoky’s effectiveness decreases with distance.",
     "ru": "Среднекалиберная танковая пушка. В основном, устанавливается на лёгкие истребительные и учебные танки. Получила распространение из-за дешевизны и простоты обслуживания. Установите её на быстрый корпус и, шныряя между ошарашенными врагами, берите тяжёлые неповоротливые танки на измор. Разработанные апгрейды способны существенно увеличить убойную силу этой малышки. Стоит помнить, что урон этой пушки падает на расстоянии."
   },
 
@@ -25,19 +25,19 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 22 },
-            { "property": "DAMAGE_TO", "value": 28 }
+            { "property": "DAMAGE_FROM", "value": 150 },
+            { "property": "DAMAGE_TO", "value": 190 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 175 },
         { "property": "TURRET_TURN_SPEED", "value": 71.5 },
-        { "property": "CRITICAL_HIT_CHANCE", "value": 8 },
-        { "property": "CRITICAL_HIT_DAMAGE", "value": 50 }
+        { "property": "CRITICAL_HIT_CHANCE", "value": 15 },
+        { "property": "CRITICAL_HIT_DAMAGE", "value": 240 }
       ],
 
       "damage": {
         "discrete": { },
-        "range": { "from": 22, "to": 28 },
+        "range": { "from": 150, "to": 190 },
         "weakening": { "from": 44.35, "to": 133.04, "minimum": 0.1 }
       },
 
@@ -89,19 +89,19 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 29 },
-            { "property": "DAMAGE_TO", "value": 37 }
+            { "property": "DAMAGE_FROM", "value": 240 },
+            { "property": "DAMAGE_TO", "value": 280 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 222 },
         { "property": "TURRET_TURN_SPEED", "value": 87.1 },
-        { "property": "CRITICAL_HIT_CHANCE", "value": 12 },
-        { "property": "CRITICAL_HIT_DAMAGE", "value": 65 }
+        { "property": "CRITICAL_HIT_CHANCE", "value": 15 },
+        { "property": "CRITICAL_HIT_DAMAGE", "value": 350 }
       ],
 
       "damage": {
         "discrete": { },
-        "range": { "from": 29, "to": 37 },
+        "range": { "from": 240, "to": 280 },
         "weakening": { "from": 49.11, "to": 147.33, "minimum": 0.1 }
       },
 
@@ -153,19 +153,19 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 35 },
-            { "property": "DAMAGE_TO", "value": 45 }
+            { "property": "DAMAGE_FROM", "value": 330 },
+            { "property": "DAMAGE_TO", "value": 370 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 269 },
         { "property": "TURRET_TURN_SPEED", "value": 102.6 },
         { "property": "CRITICAL_HIT_CHANCE", "value": 15 },
-        { "property": "CRITICAL_HIT_DAMAGE", "value": 80 }
+        { "property": "CRITICAL_HIT_DAMAGE", "value": 420 }
       ],
 
       "damage": {
         "discrete": { },
-        "range": { "from": 35, "to": 45 },
+        "range": { "from": 330, "to": 370 },
         "weakening": { "from": 53.88, "to": 161.62, "minimum": 0.1 }
       },
 
@@ -217,19 +217,19 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 44 },
-            { "property": "DAMAGE_TO", "value": 56 }
+            { "property": "DAMAGE_FROM", "value": 440 },
+            { "property": "DAMAGE_TO", "value": 480 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 330 },
         { "property": "TURRET_TURN_SPEED", "value": 122.6 },
-        { "property": "CRITICAL_HIT_CHANCE", "value": 20 },
-        { "property": "CRITICAL_HIT_DAMAGE", "value": 100 }
+        { "property": "CRITICAL_HIT_CHANCE", "value": 15 },
+        { "property": "CRITICAL_HIT_DAMAGE", "value": 530 }
       ],
 
       "damage": {
         "discrete": { },
-        "range": { "from": 44, "to": 56 },
+        "range": { "from": 440, "to": 480 },
         "weakening": { "from": 60, "to": 180, "minimum": 0.1 }
       },
 

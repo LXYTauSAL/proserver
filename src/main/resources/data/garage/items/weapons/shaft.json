@@ -7,7 +7,7 @@
     "ru": "Шафт"
   },
   "description": {
-    "en": "",
+    "en": "The Shaft gun was designed by scientists who gave its enormous possibilities. It can make coffee, deliver pizzas, pay bills, but its main feature is the sniper mode, which allows you to stay one step ahead of your opponents. Get a unique opportunity to fight at long and short distances, as you can fire from Shaft without using its sniper scope.",
     "ru": "Пушка Шафт была спроектирована учеными, которые наделили её огромным количеством функций. Она может варить кофе, доставлять пиццу, оплачивать счета, но главной её особенностью стал снайперский режим, который позволяет быть на шаг впереди своих противников. Получи уникальную возможность вести бой на дальних и ближних дистанциях, ведь из Шафта также можно стрелять, не используя снайперский прицел."
   },
 
@@ -25,14 +25,14 @@
         {
           "property": "AIMING_MODE_DAMAGE",
           "properties": [
-            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 174 }
+            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 1350 }
           ]
         },
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 41 },
-            { "property": "DAMAGE_TO", "value": 47 }
+            { "property": "DAMAGE_FROM", "value": 275 },
+            { "property": "DAMAGE_TO", "value": 325 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 199 },
@@ -47,7 +47,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 41, "to": 47 },
+        "range": { "from": 275, "to": 325 },
         "weakening": { "from": 100, "to": 100, "minimum": 1 }
       },
 
@@ -94,14 +94,14 @@
         {
           "property": "AIMING_MODE_DAMAGE",
           "properties": [
-            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 217 }
+            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 1800 }
           ]
         },
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 51 },
-            { "property": "DAMAGE_TO", "value": 59 }
+            { "property": "DAMAGE_FROM", "value": 365 },
+            { "property": "DAMAGE_TO", "value": 415 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 253 },
@@ -116,7 +116,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 51, "to": 59 },
+        "range": { "from": 365, "to": 415 },
         "weakening": { "from": 100, "to": 100, "minimum": 1 }
       }
     },
@@ -131,14 +131,14 @@
         {
           "property": "AIMING_MODE_DAMAGE",
           "properties": [
-            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 261 }
+            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 2250 }
           ]
         },
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 62 },
-            { "property": "DAMAGE_TO", "value": 71 }
+            { "property": "DAMAGE_FROM", "value": 455 },
+            { "property": "DAMAGE_TO", "value": 505 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 307 },
@@ -153,7 +153,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 62, "to": 71 },
+        "range": { "from": 455, "to": 505 },
         "weakening": { "from": 100, "to": 100, "minimum": 1 }
       }
     },
@@ -168,14 +168,14 @@
         {
           "property": "AIMING_MODE_DAMAGE",
           "properties": [
-            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 280 }
+            { "property": "SHAFT_AIMING_MODE_MAX_DAMAGE", "value": 2700 }
           ]
         },
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 66 },
-            { "property": "DAMAGE_TO", "value": 76 }
+            { "property": "DAMAGE_FROM", "value": 550 },
+            { "property": "DAMAGE_TO", "value": 650 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 330 },
@@ -190,7 +190,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 66, "to": 76 },
+        "range": { "from": 550, "to": 650 },
         "weakening": { "from": 100, "to": 100, "minimum": 1 }
       }
     }

@@ -14,7 +14,7 @@
     { "key": "STRING_FRIENDS_CANCEL_BUTTON_TEXT", "value": "取 消" },
     { "key": "SETTINGS_LINK_EMAIL_BUTTON", "value": "链 接" },
     { "key": "ACHIEVEMENT_COMPLETE_FIRST_PURCHASE_TEXT", "value": "Congratulations on your first purchase, Tanker! 5 crystals are yours." },
-    { "key": "REDUCE_DAMAGE_RAILGUN", "value": "Railgun" },
+    { "key": "REDUCE_DAMAGE_RAILGUN", "value": "激光炮" },
     { "key": "PAYMENT_BUG_REPORT_SMS_TEXT_INPUT_LABEL_TEXT", "value": "Text SMS:" },
     { "key": "REGISTER_FORM_CALLSIGN_INPUT_LABEL_TEXT", "value": "用户名:" },
     { "key": "SETTINGS_UNLINK_ACCOUNT", "value": "Unlink your game account from" },
@@ -65,9 +65,9 @@
     { "key": "GAME_ACTION_TURRET_TURN_LEFT", "value": "炮塔左转" },
     { "key": "ALERT_ANSWER_SEND_BUG_REPORT", "value": "Send bug report and return into battle" },
     { "key": "PAYMENT_WMCOMBO_LABEL_TEXT", "value": "Type:" },
-    { "key": "REDUCE_DAMAGE_ISIDA", "value": "Isida" },
+    { "key": "REDUCE_DAMAGE_ISIDA", "value": "磁力炮" },
     { "key": "STRING_ALERT_ACCOUNT_LINKING_ERROR", "value": "An error occured when linking your account, please try again later" },
-    { "key": "REDUCE_DAMAGE_MINE", "value": "Mine" },
+    { "key": "REDUCE_DAMAGE_MINE", "value": "地雷" },
     {
       "key": "STRING_REGISTER_FORM_AGREEMENT_NOTE_TEXT",
       "value": "By clicking «Confirm», you accept:\n<a href='event:terms'><font color='#59ff32'><u>License Agreement</u></font></a>,\n<a href='event:policy'><font color='#59ff32'><u>Privacy Policy and cookies</u></font></a>,\n<a href='event:rules'><font color='#59ff32'><u>Game rules</u></font></a>."
@@ -131,7 +131,7 @@
     { "key": "INVITATION_HAS_NOT_BEEN_SENT_ALERT_TEXT", "value": "Не удалось отправить приглашение." },
     { "key": "BATTLE_PAUSE_ENABLED", "value": "Pause on" },
     { "key": "HELP_PANEL_ACHIEVEMENTS_INVITE_FRIEND_ARROW_LENGTH", "value": "21" },
-    { "key": "REDUCE_DAMAGE_SHAFT", "value": "Shaft" },
+    { "key": "REDUCE_DAMAGE_SHAFT", "value": "镭射炮" },
     { "key": "STRING_BATTLE_IS_UNAVAILABLE_AT_YOUR_RANK_LABEL", "value": "Battle is unavailable at your rank" },
     {
       "key": "STRING_ALERT_INVITE_TO_BATTLE_IS_UNAVAILABLE_RANK",
@@ -164,7 +164,7 @@
     { "key": "MAIN_PANEL_BUTTON_CHALLENGE", "value": "Challenge" },
     { "key": "REFERAL_WINDOW_COPY_LINK_LABEL_TEXT", "value": "Скопируйте ссылку и перешлите своим друзьям" },
     { "key": "PAYMENT_BUG_REPORT_COMMENT_INPUT_LABEL_TEXT", "value": "Comment:" },
-    { "key": "REDUCE_DAMAGE_TWINS", "value": "Twins" },
+    { "key": "REDUCE_DAMAGE_TWINS", "value": "离子炮" },
     { "key": "SETTINGS_CHANGE_PASSWORD_BUTTON", "value": "更 改" },
     {
       "key": "DAILY_QUEST_INFORMATION",
@@ -285,7 +285,7 @@
     { "key": "SETTINGS_SHOW_CHAT_CHECKBOX_LABEL_TEXT", "value": "显示聊天" },
     { "key": "ACCOUNT_RECOVERY_FORM_WRONG_CODE", "value": "Incorrect confirmation code." },
     { "key": "PAYMENT_BUG_REPORT_EMAIL_INPUT_LABEL_TEXT", "value": "E-mail:" },
-    { "key": "REDUCE_DAMAGE_FIREBIRD", "value": "Firebird" },
+    { "key": "REDUCE_DAMAGE_FIREBIRD", "value": "火焰炮" },
     {
       "key": "PAYMENT_MAININFO_LABEL_TEXT",
       "value": "Here you can buy crystals to use in the Garage to buy the things you need. Choose a payment method that is convenient for you."
@@ -347,7 +347,7 @@
       "key": "STRING_YOUR_FRIEND_IS_ALREADY_IN_THIS_BATTLE_LABEL",
       "value": "Invite has not been sent\nYour friend is already in this battle"
     },
-    { "key": "REDUCE_DAMAGE_SMOKY", "value": "Smoky" },
+    { "key": "REDUCE_DAMAGE_SMOKY", "value": "轰天炮" },
     { "key": "KEYBOARD_KEY_PG_DN", "value": "PgDn" },
     { "key": "BATTLE_CREATE_PANEL_BUTTON_CONTROL_THE_POINT", "value": "控制点" },
     { "key": "BATTLE_RESTART", "value": "Battle restarts in" },
@@ -467,7 +467,7 @@
     { "key": "COUNTRIES_RUSSIA_NAME", "value": "Russia" },
     { "key": "BATTLE_CREATE_PANEL_FLOOD_ALERT_TEXT", "value": "You can create not more than three battles within 5 minutes." },
     { "key": "REARM_BATTLE_PRIZE", "value": "You received {crystalls}" },
-    { "key": "REDUCE_DAMAGE_THUNDER", "value": "Thunder" },
+    { "key": "REDUCE_DAMAGE_THUNDER", "value": "雷暴炮" },
     { "key": "TEXT_DOM_WE_LOST_POINT", "value": "We've lost the point {point}" },
     {
       "key": "STRING_YOUR_ARE_PLAING_SAFP_ALERT",
@@ -683,7 +683,7 @@
     { "key": "RATING_SCORES_TEXT", "value": "Рейтинг по опыту" },
     { "key": "PAYMENT_SMSNUMBERS_COST_HEADER_LABEL_TEXT", "value": "Cost" },
     { "key": "CHALLENGES_WINDOW_BUTTON_CHANGE_TEXT", "value": "Change" },
-    { "key": "REDUCE_DAMAGE_RICOCHET", "value": "Ricochet" },
+    { "key": "REDUCE_DAMAGE_RICOCHET", "value": "火龙珠" },
     { "key": "REARM_OPTION_TEXT", "value": "更换装备" },
     { "key": "SETTINGS_BUTTON_CANCEL_TEXT", "value": "取 消" },
     { "key": "REARM_TEAM_LOOSE", "value": "Your team lost" },
@@ -734,7 +734,7 @@
       "key": "FREE_BONUSES_WINDOW_MESSAGE_CRYSTALS_TEXT",
       "value": "<b><font size='20'>You got the crystals(%1)!</font></b>\nGo to the garage and don't deny yourself anything."
     },
-    { "key": "REDUCE_DAMAGE_FREEZE", "value": "Freeze" },
+    { "key": "REDUCE_DAMAGE_FREEZE", "value": "冰风暴" },
     { "key": "SETTINGS_DYNAMIC_LIGHTING", "value": "动态照明" },
     { "key": "ERROR_CALLSIGN_LENGTH", "value": "You nickname's length have to be more than 1" },
     { "key": "FOCUS_WARNIG_TEXT", "value": "Click to continue" },
@@ -788,7 +788,7 @@
     { "key": "BATTLE_CREATE_PANEL_CHECKBOX_FRIENDLY_FIRE", "value": "队友伤害" },
     { "key": "STRING_IS_JOINING_THE_BATTLE_AT_YOUR_INVITATION_LABEL", "value": "Is joining the battle at your invitation\n" },
     { "key": "REFERAL_WINDOW_BUTTON_COPY_BANNER_TEXT", "value": "Скопировать код в буфер обмена" },
-    { "key": "REDUCE_DAMAGE_SHOTGUN", "value": "Hammer" },
+    { "key": "REDUCE_DAMAGE_SHOTGUN", "value": "滑膛炮" },
     { "key": "STRING_HELP_NAME_IS_FORBIDDEN", "value": "输入的名称不能用于注册" },
     { "key": "SETTINGS_BUTTON_CHANGE_PASSWORD_TEXT", "value": "Change password and e-mail" },
     { "key": "GAME_ACTION_USE_DOUBLE_ARMOR", "value": "使用双倍护甲" },
@@ -823,7 +823,7 @@
     },
     { "key": "STATISTICS_HEADER_CALLSIGN", "value": "用户名" },
     { "key": "ACCOUNT_RECOVERY_FORM_BUTTON_CANCEL_TEXT", "value": "取 消" },
-    { "key": "GARAGE_RESISTANCE_DESCRIPTION_PREFIX", "value": "Protection:" },
+    { "key": "GARAGE_RESISTANCE_DESCRIPTION_PREFIX", "value": "防御属性:" },
     { "key": "STRING_INVITE_TO_BATTLE_LABEL", "value": "Invite to battle" },
     {
       "key": "STRING_PARTNER_REGISTARTION_FORM_AGREEMENT_NOTE_TEXT",

@@ -7,7 +7,7 @@
     "ru": "Васп"
   },
   "description": {
-    "en": "",
+    "en": "Lightweight, economical, easy to operate – Wasp is a perfect hull for beginners. Upgraded wasp can reach fairly high speed, which in combination with small size gives the freedom of action on the battlefield. Because of low weight, Wasp can easily be rolled over by an enemy’s gunfire.",
     "ru": "Легкий, экономичный, простой в эксплуатации — идеальный корпус начального уровня. После прокачки позволяет развивать довольно большую скорость, что в сочетании с небольшими габаритами даёт свободу действий на поле боя. Из-за небольшой массы подвержен переворотам от ударов мощного вражеского оружия."
   },
 
@@ -22,7 +22,7 @@
       "price": 200,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 94 },
+        { "property": "HULL_ARMOR", "value": 1000 },
         { "property": "HULL_SPEED", "value": 10.80 },
         { "property": "HULL_TURN_SPEED", "value": 93.9 },
         { "property": "HULL_MASS", "value": 1376 },
@@ -55,7 +55,7 @@
       "price": 7650,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 121 },
+        { "property": "HULL_ARMOR", "value": 1375 },
         { "property": "HULL_SPEED", "value": 11.50 },
         { "property": "HULL_TURN_SPEED", "value": 111.7 },
         { "property": "HULL_MASS", "value": 1638 },
@@ -88,7 +88,7 @@
       "price": 62450,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 149 },
+        { "property": "HULL_ARMOR", "value": 1750 },
         { "property": "HULL_SPEED", "value": 12.20 },
         { "property": "HULL_TURN_SPEED", "value": 129.6 },
         { "property": "HULL_MASS", "value": 1901 },
@@ -121,7 +121,7 @@
       "price": 200000,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 180 },
+        { "property": "HULL_ARMOR", "value": 2000 },
         { "property": "HULL_SPEED", "value": 13.00 },
         { "property": "HULL_TURN_SPEED", "value": 150 },
         { "property": "HULL_MASS", "value": 2200 },

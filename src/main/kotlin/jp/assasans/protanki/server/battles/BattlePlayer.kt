@@ -192,6 +192,11 @@ class BattlePlayer(
 
     battle.modeHandler.initModeModel(this)
 
+    // ★ 时间相关：这里做单位转换
+    val timeLimitSec = battle.properties[BattleProperty.TimeLimit]
+    val timeLimitMinutes = if(timeLimitSec <= 0) 0 else timeLimitSec / 60
+
+    val timeLeftSec = battle.timeLeft?.inWholeSeconds?.toInt() ?: 0
 
     Command(
       CommandName.InitGuiModel,
@@ -199,8 +204,10 @@ class BattlePlayer(
         name = battle.title,
         fund = battle.fundProcessor.fund,
         scoreLimit = battle.properties[BattleProperty.ScoreLimit],
-        timeLimit = battle.properties[BattleProperty.TimeLimit],
-        timeLeft = battle.timeLeft?.inWholeSeconds?.toInt() ?: 0,
+
+        timeLimit = timeLimitMinutes,
+        timeLeft = timeLeftSec,
+
         team = team != BattleTeam.None,
         parkourMode = battle.properties[BattleProperty.ParkourMode],
         battleType = battle.modeHandler.mode,
