@@ -3,11 +3,11 @@
   "index": 8,
 
   "name": {
-    "en": "Twins",
+    "en": "离子炮",
     "ru": "Твинс"
   },
   "description": {
-    "en": "This second generation middle-caliber gun is the best choice for dynamic battle. Splash damage (make sure you don’t hit yourself!) allows you to attack a group of enemy vehicles. Quick recharge will give you a distinct advantage over heavy tanks of enemy. Equipped with light armor Thunder is one of the most dangerous weapons on the battlefield.",
+    "en": "",
     "ru": "Скорострельный двуствольный плазмомёт вмиг превратит врага в кучу расплавленного железа. Учитывая то, что попадание во вражеский танк сбивает ему прицел, это оружие идеально подходит для динамичного боя на средней дистанции."
   },
   
@@ -25,8 +25,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 100 },
-            { "property": "DAMAGE_TO", "value": 110 }
+            { "property": "DAMAGE_FROM", "value": 8.8 },
+            { "property": "DAMAGE_TO", "value": 10.5 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 97 },
@@ -42,7 +42,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 100, "to": 110 },
+        "range": { "from": 8.8, "to": 10.5 },
         "weakening": { "from": 15, "to": 65.03, "minimum": 0.0578 }
       },
 
@@ -94,8 +94,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 135 },
-            { "property": "DAMAGE_TO", "value": 145 }
+            { "property": "DAMAGE_FROM", "value": 11.4 },
+            { "property": "DAMAGE_TO", "value": 13.9 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 117 },
@@ -111,7 +111,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 135, "to": 145 },
+        "range": { "from": 11.4, "to": 13.9 },
         "weakening": { "from": 15, "to": 69.79, "minimum": 0.103 }
       },
 
@@ -170,8 +170,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 165 },
-            { "property": "DAMAGE_TO", "value": 175 }
+            { "property": "DAMAGE_FROM", "value": 14 },
+            { "property": "DAMAGE_TO", "value": 17.2 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 137 },
@@ -187,7 +187,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 165, "to": 175 },
+        "range": { "from": 14, "to": 17.2 },
         "weakening": { "from": 15, "to": 74.56, "minimum": 0.1483 }
       },
 
@@ -246,8 +246,8 @@
         {
           "property": "DAMAGE",
           "properties": [
-            { "property": "DAMAGE_FROM", "value": 200 },
-            { "property": "DAMAGE_TO", "value": 220 }
+            { "property": "DAMAGE_FROM", "value": 17 },
+            { "property": "DAMAGE_TO", "value": 21 }
           ]
         },
         { "property": "IMPACT_FORCE", "value": 160 },
@@ -263,7 +263,7 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 200, "to": 220 },
+        "range": { "from": 17, "to": 21 },
         "weakening": { "from": 15, "to": 80, "minimum": 0.2 }
       },
 

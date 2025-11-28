@@ -3,11 +3,11 @@
   "index": 18,
 
   "name": {
-    "en": "Hunter",
+    "en": "猎人中甲",
     "ru": "Хантер"
   },
   "description": {
-    "en": "Hunter is the most versatile hull in the game. Thanks to balance between reinforced steel armor plates and low energy consumption this armor is an all-purpose one. It is good for everybody, from sprinters to snipers. Being so versatile, you'll never stay without a job on a field of war.",
+    "en": "",
     "ru": "Этот корпус, обшитый бронёй из армированной стали, является наиболее универсальным. Он хорошо подойдет как поклонникам активного, динамичного боя, так и игрокам, предпочитающим позиционный стиль игры. Вы никогда не останетесь без работы, будь то удержание высоты или жестокая битва за квартал разрушенного города."
   },
 
@@ -22,7 +22,7 @@
       "price": 0,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 1500 },
+        { "property": "HULL_ARMOR", "value": 144 },
         { "property": "HULL_SPEED", "value": 8.00 },
         { "property": "HULL_TURN_SPEED", "value": 75.8 },
         { "property": "HULL_MASS", "value": 1761 },
@@ -55,7 +55,7 @@
       "price": 3200,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2100 },
+        { "property": "HULL_ARMOR", "value": 187 },
         { "property": "HULL_SPEED", "value": 8.60 },
         { "property": "HULL_TURN_SPEED", "value": 95.3 },
         { "property": "HULL_MASS", "value": 2047 },
@@ -88,7 +88,7 @@
       "price": 54400,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2600 },
+        { "property": "HULL_ARMOR", "value": 230 },
         { "property": "HULL_SPEED", "value": 9.20 },
         { "property": "HULL_TURN_SPEED", "value": 114.9 },
         { "property": "HULL_MASS", "value": 2333 },
@@ -121,7 +121,7 @@
       "price": 190000,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 3000 },
+        { "property": "HULL_ARMOR", "value": 285 },
         { "property": "HULL_SPEED", "value": 10.00 },
         { "property": "HULL_TURN_SPEED", "value": 140 },
         { "property": "HULL_MASS", "value": 2700 },

@@ -33,7 +33,7 @@
         {
           "property": "WEAPON_CHARGE_RATE",
           "properties": [
-            { "property": "WEAPON_RELOAD_TIME", "value": 3.15 }
+            { "property": "WEAPON_RELOAD_TIME", "value": 1.5 }
           ]
         },
         { "property": "TURRET_TURN_SPEED", "value": 77 },
@@ -47,8 +47,8 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 55, "to": 83 },
-        "weakening": { "from": 150, "to": 150, "minimum": 0.5 },
+        "range": { "from": 42, "to": 68 },
+        "weakening": { "from": 56.93, "to": 113.85, "minimum": 1.5 },
         "splash": { "from": 0, "to": 25, "radius": 12 }
       },
 
@@ -65,21 +65,21 @@
           {
             "name": "hit",
             "light": [
-              { "attenuationBegin": 200, "attenuationEnd": 800, "color": 16741656, "intensity": 0.8, "time": 0 },
+              { "attenuationBegin": 200, "attenuationEnd": 800, "color": 16741656, "intensity": 1.5, "time": 0 },
               { "attenuationBegin": 200, "attenuationEnd": 800, "color": 16741656, "intensity": 0, "time": 700 }
             ]
           },
           {
             "name": "shot",
             "light": [
-              { "attenuationBegin": 100, "attenuationEnd": 500, "color": 16741656, "intensity": 0.9, "time": 0 },
+              { "attenuationBegin": 100, "attenuationEnd": 500, "color": 16741656, "intensity": 1.5, "time": 0 },
               { "attenuationBegin": 1, "attenuationEnd": 2, "color": 16741656, "intensity": 0, "time": 250 }
             ]
           },
           {
             "name": "shellLightAnimation",
             "light": [
-              { "attenuationBegin": 100, "attenuationEnd": 350, "color": 16741656, "intensity": 0.5, "time": 0 }
+              { "attenuationBegin": 100, "attenuationEnd": 350, "color": 16741656, "intensity": 1.5, "time": 0 }
             ]
           }
         ],
@@ -105,7 +105,7 @@
         {
           "property": "WEAPON_CHARGE_RATE",
           "properties": [
-            { "property": "WEAPON_RELOAD_TIME", "value": 2.91 }
+            { "property": "WEAPON_RELOAD_TIME", "value": 1.5 }
           ]
         },
         { "property": "TURRET_TURN_SPEED", "value": 94.6 },
@@ -120,7 +120,7 @@
       "damage": {
         "discrete": { },
         "range": { "from": 55, "to": 83 },
-        "weakening": { "from": 150, "to": 150, "minimum": 0.5 },
+        "weakening": { "from": 61.75, "to": 123.49, "minimum": 1.5 },
         "splash": { "from": 0, "to": 25, "radius": 12 }
       },
 
@@ -164,8 +164,8 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 55, "to": 83 },
-        "weakening": { "from": 150, "to": 150, "minimum": 0.5 },
+        "range": { "from": 68, "to": 99 },
+        "weakening": { "from": 66.56, "to": 133.12, "minimum": 1.5 },
         "splash": { "from": 0, "to": 25, "radius": 12 }
       },
 
@@ -209,8 +209,8 @@
 
       "damage": {
         "discrete": { },
-        "range": { "from": 55, "to": 83 },
-        "weakening": { "from": 150, "to": 150, "minimum": 0.5 },
+        "range": { "from": 78, "to": 110 },
+        "weakening": { "from": 70, "to": 140, "minimum": 1.5 },
         "splash": { "from": 0, "to": 25, "radius": 12 }
       },
 

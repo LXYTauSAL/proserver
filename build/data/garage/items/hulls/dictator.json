@@ -3,11 +3,11 @@
   "index": 19,
 
   "name": {
-    "en": "Dictator",
+    "en": "独裁者",
     "ru": "Диктатор"
   },
   "description": {
-    "en": "Because of improved active defense system and usage of newest composite materials, this armor effectively absorbs energy of an impact of almost any caliber gun. With Dictator you can fight on the front line of any battle. Being one of the fastest and best protected hulls in the game, Dictator is large which makes it an easy target.",
+    "en": "",
     "ru": "Благодаря усовершенствованной системе активной защиты и применению новейших композитных материалов данный корпус эффективно поглощает энергию взрыва снаряда любого калибра. Обладатель такого корпуса может смело вести товарищей в атаку, принимая основной удар на себя. Будучи одним из самых быстрых и защищённых, этот корпус имеет большие габариты, что делает его лёгкой мишенью для врага."
   },
 
@@ -22,7 +22,7 @@
       "price": 400,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 1500 },
+        { "property": "HULL_ARMOR", "value": 188 },
         { "property": "HULL_SPEED", "value": 7.00 },
         { "property": "HULL_TURN_SPEED", "value": 89 },
         { "property": "HULL_MASS", "value": 2410 },
@@ -55,7 +55,7 @@
       "price": 16550,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2100 },
+        { "property": "HULL_ARMOR", "value": 243 },
         { "property": "HULL_SPEED", "value": 7.30 },
         { "property": "HULL_TURN_SPEED", "value": 103.3 },
         { "property": "HULL_MASS", "value": 2722 },
@@ -88,7 +88,7 @@
       "price": 78550,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 2600 },
+        { "property": "HULL_ARMOR", "value": 298 },
         { "property": "HULL_SPEED", "value": 7.70 },
         { "property": "HULL_TURN_SPEED", "value": 117.7 },
         { "property": "HULL_MASS", "value": 3033 },
@@ -121,7 +121,7 @@
       "price": 220000,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 3000 },
+        { "property": "HULL_ARMOR", "value": 345 },
         { "property": "HULL_SPEED", "value": 8.00 },
         { "property": "HULL_TURN_SPEED", "value": 130 },
         { "property": "HULL_MASS", "value": 3300 },

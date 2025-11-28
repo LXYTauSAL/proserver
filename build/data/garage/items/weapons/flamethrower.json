@@ -3,11 +3,11 @@
   "index": 7,
 
   "name": {
-    "en": "Firebird",
+    "en": "火焰炮",
     "ru": "Огнемёт"
   },
   "description": {
-    "en": "When battles take place in close quarters, there is no better weapon than a firebird. This is a weapon of mass annihilation which can and will melt down any tank and its crew in no time. It is highly effective in confined spaces against slow moving tanks. Firebird is relatively slow when it comes to recharging but you can also shoot with a partially recharged gun.",
+    "en": "",
     "ru": "В тесных городских кварталах, когда картина боя напоминает скорее муравейник, нет лучшего оружия, чем Огнемёт. Огнемёт является этаким оружием массового поражения для ближнего боя. Высокая температура горения смеси позволит быстро поджечь экипаж танка зазевавшегося противника, после чего скрыться за углом, пока враг догорает. Идеальное оружие против медленных танков в условиях ограниченного пространства. Из недостатков можно отметить сравнительно долгое время перезарядки, однако стрелять можно и из частично перезаряженного оружия."
   },
 
@@ -25,7 +25,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 100 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 41 }
           ]
         },
         {
@@ -44,15 +44,14 @@
         {
           "property": "FIRE_DAMAGE",
           "properties": [
-            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 50 },
-            { "property": "BURN_DURATION_SEC", "value": 1.5 }
+            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 5.9 }
           ]
         }
       ],
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 7491, "discharge": 20000, "interval": 500 },
-        "fixed": { "value": 100 },
+        "fixed": { "value": 41 },
         "weakening": { "from": 5, "to": 23.74, "minimum": 0.5 }
       },
 
@@ -139,7 +138,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 150 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 50 }
           ]
         },
         {
@@ -158,15 +157,14 @@
         {
           "property": "FIRE_DAMAGE",
           "properties": [
-            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 50 },
-            { "property": "BURN_DURATION_SEC", "value": 2.5 }
+            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 10.2 }
           ]
         }
       ],
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 7918, "discharge": 20000, "interval": 500 },
-        "fixed": { "value": 150 },
+        "fixed": { "value": 50 },
         "weakening": { "from": 5, "to": 25.65, "minimum": 0.5 }
       },
 
@@ -258,7 +256,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 180 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 60 }
           ]
         },
         {
@@ -277,15 +275,14 @@
         {
           "property": "FIRE_DAMAGE",
           "properties": [
-            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 50 },
-            { "property": "BURN_DURATION_SEC", "value": 3.5 }
+            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 14.5 }
           ]
         }
       ],
 
       "damage": {
         "stream": { "capacity": 100000, "charge": 8389, "discharge": 20000, "interval": 500 },
-        "fixed": { "value": 180 },
+        "fixed": { "value": 60 },
         "weakening": { "from": 5, "to": 27.55, "minimum": 0.5 }
       }
     },
@@ -300,7 +297,7 @@
         {
           "property": "DAMAGE_PER_SECOND",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 220 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 72 }
           ]
         },
         {
@@ -319,15 +316,14 @@
         {
           "property": "FIRE_DAMAGE",
           "properties": [
-            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 50 },
-            { "property": "BURN_DURATION_SEC", "value": 5.0 }
+            { "property": "FLAME_TEMPERATURE_LIMIT", "value": 20 }
           ]
         }
       ],
 
       "damage": {
         "stream": { "capacity": 10000, "charge": 909, "discharge": 2000, "interval": 500 },
-        "fixed": { "value": 220 },
+        "fixed": { "value": 72 },
         "weakening": { "from": 5, "to": 30, "minimum": 0.5 }
       }
     }
