@@ -44,7 +44,7 @@
       <property name="hibernate.hikari.dataSourceClassName"
                 value="com.mysql.cj.jdbc.MysqlDataSource" />
       <property name="hibernate.hikari.dataSource.url"
-                value="jdbc:mysql://180.76.116.94:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
+                value="jdbc:mysql://127.0.0.1:3306/ProtankiServer?useSSL=false&amp;serverTimezone=UTC" />
 
       <property name="hibernate.hikari.username" value="ProtankiAdmin" />
       <property name="hibernate.hikari.password" value="Lxynb666!" />

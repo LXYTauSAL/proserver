@@ -7,7 +7,7 @@
     "ru": "Изида"
   },
   "description": {
-    "en": "",
+    "en": "The idea of this unique weapon arose in the times of the cold war but was brought to life only with the development of quantum physics and nanotechnologies. The heart of this wonder-machine is generator of nanorobots able to reproduce or destroy the structure of any non-biologocal material. The weapon is equipped with impulse emitter which allows transporting nanomass in the magnetic channel at a distance of about twenty meters. Molecular material, derived when nanorobots are functioning in the mode of target destruction, is used to fix shooter’s own chassis. Thus, Isida deals damage to enemies and heals allies, which makes it invaluable in team battles.",
     "ru": "Уникальная идея этого оружия зародилась ещё во времена холодной войны, но смогла воплотиться только с развитием квантовой физики и нанотехнологий. Сердце этой чудо-машины — генератор нанороботов, способных воспроизвести или разрушить структуру любого материала небиологического происхождения. Импульсный излучатель, которым оборудована пушка, позволяет транспортировать наномассу в магнитном канале на расстояние в пару десятков метров. Молекулярный материал, получаемый при работе нанороботов в режиме разрушения цели, используется для починки собственного шасси. Таким образом, это оружие наносит урон врагам и восстанавливает союзников, что особенно необходимо при командной игре."
   },
 
@@ -25,13 +25,13 @@
         {
           "property": "ISIS_HEALING_PER_SECOND",
           "properties": [
-            { "property": "ISIS_HEALING_PER_PERIOD", "value": 36 }
+            { "property": "ISIS_HEALING_PER_PERIOD", "value": 30 }
           ]
         },
         {
           "property": "ISIS_DAMAGE",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 36 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 80 }
           ]
         },
         { "property": "ISIS_SELF_HEALING_PERCENT", "value": 35.97 },
@@ -46,9 +46,9 @@
 
       "damage": {
         "stream": { "capacity": 10000, "charge": 900, "discharge": 1420, "interval": 500 },
-        "fixed": { "value": 36 },
+        "fixed": { "value": 80 },
         "heal": {
-          "fixed": { "value": 36 }
+          "fixed": { "value": 30 }
         }
       },
 
@@ -144,13 +144,13 @@
         {
           "property": "ISIS_HEALING_PER_SECOND",
           "properties": [
-            { "property": "ISIS_HEALING_PER_PERIOD", "value": 47 }
+            { "property": "ISIS_HEALING_PER_PERIOD", "value": 40 }
           ]
         },
         {
           "property": "ISIS_DAMAGE",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 47 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 110 }
           ]
         },
         { "property": "ISIS_SELF_HEALING_PERCENT", "value": 40.88 },
@@ -165,9 +165,9 @@
 
       "damage": {
         "stream": { "capacity": 10000, "charge": 964, "discharge": 1420, "interval": 500 },
-        "fixed": { "value": 47 },
+        "fixed": { "value": 110 },
         "heal": {
-          "fixed": { "value": 47 }
+          "fixed": { "value": 40 }
         }
       },
 
@@ -270,13 +270,13 @@
         {
           "property": "ISIS_HEALING_PER_SECOND",
           "properties": [
-            { "property": "ISIS_HEALING_PER_PERIOD", "value": 57 }
+            { "property": "ISIS_HEALING_PER_PERIOD", "value": 50 }
           ]
         },
         {
           "property": "ISIS_DAMAGE",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 57 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 140 }
           ]
         },
         { "property": "ISIS_SELF_HEALING_PERCENT", "value": 45.79 },
@@ -291,9 +291,9 @@
 
       "damage": {
         "stream": { "capacity": 10000, "charge": 1038, "discharge": 1420, "interval": 500 },
-        "fixed": { "value": 57 },
+        "fixed": { "value": 140 },
         "heal": {
-          "fixed": { "value": 57 }
+          "fixed": { "value": 50 }
         }
       },
 
@@ -396,13 +396,13 @@
         {
           "property": "ISIS_HEALING_PER_SECOND",
           "properties": [
-            { "property": "ISIS_HEALING_PER_PERIOD", "value": 66 }
+            { "property": "ISIS_HEALING_PER_PERIOD", "value": 60 }
           ]
         },
         {
           "property": "ISIS_DAMAGE",
           "properties": [
-            { "property": "DAMAGE_PER_PERIOD", "value": 66 }
+            { "property": "DAMAGE_PER_PERIOD", "value": 180 }
           ]
         },
         { "property": "ISIS_SELF_HEALING_PERCENT", "value": 50.00 },
@@ -417,9 +417,9 @@
 
       "damage": {
         "stream": { "capacity": 10000, "charge": 1111, "discharge": 1420, "interval": 500 },
-        "fixed": { "value": 66 },
+        "fixed": { "value": 180 },
         "heal": {
-          "fixed": { "value": 66 }
+          "fixed": { "value": 60 }
         }
       },
 

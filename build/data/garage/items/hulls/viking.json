@@ -3,11 +3,11 @@
   "index": 20,
 
   "name": {
-    "en": "维 京",
+    "en": "维京",
     "ru": "Викинг"
   },
   "description": {
-    "en": "",
+    "en": "This armor incorporates all modern military technologies. Reinforced armor and «Type 2» engine make Viking one of the most versatile hulls. Attack the enemy or cover your teammates – this hull will prove itself as a good and trustful one in any situation.",
     "ru": "Этот корпус воплощает в себе все самые современные наработки военной инженерии. Усиленная броня и гусеничная система второго поколения делают его великолепным универсалом. Корпус прекрасно подходит для решения любых боевых задач — от удержания высоты до лобовой атаки."
   },
 
@@ -22,7 +22,7 @@
       "price": 700,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 195 },
+        { "property": "HULL_ARMOR", "value": 1500 },
         { "property": "HULL_SPEED", "value": 7.80 },
         { "property": "HULL_TURN_SPEED", "value": 80.6 },
         { "property": "HULL_MASS", "value": 2235 },
@@ -54,7 +54,7 @@
       "price": 29900,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 244 },
+        { "property": "HULL_ARMOR", "value": 2100 },
         { "property": "HULL_SPEED", "value": 8.30 },
         { "property": "HULL_TURN_SPEED", "value": 92.7 },
         { "property": "HULL_MASS", "value": 2550 },
@@ -87,7 +87,7 @@
       "price": 102700,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 294 },
+        { "property": "HULL_ARMOR", "value": 2600 },
         { "property": "HULL_SPEED", "value": 8.80 },
         { "property": "HULL_TURN_SPEED", "value": 104.8 },
         { "property": "HULL_MASS", "value": 2865 },
@@ -120,7 +120,7 @@
       "price": 250000,
 
       "properties": [
-        { "property": "HULL_ARMOR", "value": 315 },
+        { "property": "HULL_ARMOR", "value": 3000 },
         { "property": "HULL_SPEED", "value": 9.00 },
         { "property": "HULL_TURN_SPEED", "value": 110 },
         { "property": "HULL_MASS", "value": 3000 },

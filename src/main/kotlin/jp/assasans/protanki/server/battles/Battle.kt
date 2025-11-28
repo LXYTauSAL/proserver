@@ -431,8 +431,12 @@ class Battle(
                 else -> Unit
             }
 
-            // 5. 通知客户端“战斗重启”，客户端收到后会把结算面板关掉
-            Command(CommandName.RestartBattle, 0.toString()).sendTo(this)
+            // 当前房间配置的总时长（秒），0 表示无限时间
+            val timeLimitInSec = properties[BattleProperty.TimeLimit]
+
+            // 发给客户端，作为 roundStart(param1, ...) 的 param1
+            Command(CommandName.RestartBattle, timeLimitInSec.toString()).sendTo(this)
+
             // 6. ★ 关键：对所有玩家重新初始化本地战斗模型（包括 GUI / 统计 / 模式等）
             for (player in players) {
                 player.initLocal()
